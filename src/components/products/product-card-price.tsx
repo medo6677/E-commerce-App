@@ -14,12 +14,15 @@ export function ProductCardPrice({ product }: ProductCardPriceProps) {
   return (
     <CardFooter className="justify-between px-4 pb-4 pt-0">
       <div className="flex flex-col">
-        {hasDiscount && (
-          <span className="text-xs text-slate-400 line-through">
-            {product.priceAfterDiscount} EGP
+        {hasDiscount ? (
+          <>   <span className="text-xs text-slate-400 line-through">
+            {product.price} EGP
           </span>
+            <span className="font-bold text-slate-800">{product.priceAfterDiscount} EGP</span></>
+
+        ) : (
+          <span className="font-bold text-slate-800">{product.price} EGP</span>
         )}
-        <span className="font-bold text-slate-800">{product.price} EGP</span>
       </div>
       <Button
         type="button"
