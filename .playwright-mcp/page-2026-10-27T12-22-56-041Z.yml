@@ -1,0 +1,81 @@
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e43]:
+        - application "Figma Design, 1 item selected" [active] [ref=e51]
+        - status [ref=e52]: Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+        - status [ref=e54]
+        - generic:
+          - generic:
+            - generic:
+              - region "Comments on canvas":
+                - button "Create new comment"
+        - generic:
+          - region "Left sidebar":
+            - generic [ref=e55]:
+              - button "Main menu" [ref=e56]
+              - button "Expand UI for file named Freshcart [E-Commerce]" [ref=e57]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Freshcart [E-Commerce], file name": Freshcart [E-Commerce]
+                      - generic: File name
+        - generic [ref=e60]:
+          - button "Multiplayer tools" [ref=e66]
+          - button "65%, zoom and view options" [ref=e72]:
+            - generic: 65%
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - button "Present" [ref=e76]
+              - button "Prototype view" [ref=e77]
+            - button "Share" [ref=e79]
+      - generic:
+        - generic:
+          - generic:
+            - region "Application toolbar":
+              - generic [ref=e80]:
+                - toolbar "Editor" [ref=e82]:
+                  - generic [ref=e84]:
+                    - generic:
+                      - generic [ref=e87]:
+                        - generic [ref=e88]:
+                          - button "Move" [ref=e89]
+                          - button "Hand tool" [pressed] [ref=e90]
+                          - button "Comment" [ref=e91]
+                        - group "Frame" [ref=e93]:
+                          - button "Frame" [ref=e94]
+                          - button "Region tools" [ref=e95]
+                        - group "Rectangle" [ref=e96]:
+                          - button "Rectangle" [ref=e97]
+                          - button "Shape tools" [ref=e98]
+                        - group "Pen" [ref=e99]:
+                          - button "Pen" [ref=e100]
+                          - button "Creation tools" [ref=e101]
+                        - button "Text" [ref=e102]
+                        - button "Actions" [ref=e103]
+                      - text: Request sent
+                  - radiogroup "Toolbelt Mode" [ref=e107]:
+                    - generic [ref=e109]:
+                      - generic [ref=e111]:
+                        - radio "Design" [checked] [ref=e112]
+                        - generic [ref=e116]: Design
+                      - generic [ref=e117]:
+                        - radio "Motion" [ref=e118]
+                        - generic [ref=e122]: Motion
+                      - generic [ref=e123]:
+                        - radio "Dev Mode" [ref=e124]
+                        - generic [ref=e128]: Dev Mode
+                - generic [ref=e129]:
+                  - generic [ref=e130]: Sign up to comment, edit, inspect and more.
+                  - generic [ref=e131]:
+                    - button "Sign up" [ref=e132]
+                    - button "Continue with Google" [ref=e135]:
+                      - generic: Continue
+    - region "Help/zoom toolbar" [ref=e29]:
+      - toolbar "Help/zoom toolbar" [ref=e31]:
+        - button "Help" [ref=e33]
+  - generic:
+    - status
+    - group [ref=e35]:
+      - alert [ref=e37]
+      - alert [ref=e39]

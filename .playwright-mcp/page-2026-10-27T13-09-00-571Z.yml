@@ -1,0 +1,91 @@
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e43]:
+        - application "Figma Design, 1 item selected" [active] [ref=e51]
+        - status [ref=e52]: Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+        - status [ref=e54]
+        - generic:
+          - generic:
+            - generic:
+              - region "Comments on canvas":
+                - button "Create new comment"
+        - generic:
+          - region "Left sidebar":
+            - generic [ref=e55]:
+              - button "Main menu" [ref=e56]
+              - button "Expand UI for file named Freshcart [E-Commerce]" [ref=e57]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Freshcart [E-Commerce], file name": Freshcart [E-Commerce]
+                      - generic: File name
+        - generic [ref=e60]:
+          - generic [ref=e62]:
+            - generic [ref=e64]:
+              - generic:
+                - generic:
+                  - group "People":
+                    - generic [ref=e66]:
+                      - button "Follow Mohamad Ahmed" [ref=e67]
+                      - img [ref=e75]:
+                        - generic [ref=e76]: M
+                    - button "Follow Anonymous" [ref=e79]
+            - button "Multiplayer tools" [ref=e93]
+          - button "67%, zoom and view options" [ref=e99]:
+            - generic: 67%
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - button "Present" [ref=e103]
+              - button "Prototype view" [ref=e104]
+            - button "Share" [ref=e106]
+      - generic:
+        - generic:
+          - generic:
+            - region "Application toolbar":
+              - generic [ref=e107]:
+                - toolbar "Editor" [ref=e109]:
+                  - generic [ref=e111]:
+                    - generic:
+                      - generic [ref=e114]:
+                        - generic [ref=e115]:
+                          - button "Move" [ref=e116]
+                          - button "Hand tool" [pressed] [ref=e117]
+                          - button "Comment" [ref=e118]
+                        - group "Frame" [ref=e120]:
+                          - button "Frame" [ref=e121]
+                          - button "Region tools" [ref=e122]
+                        - group "Rectangle" [ref=e123]:
+                          - button "Rectangle" [ref=e124]
+                          - button "Shape tools" [ref=e125]
+                        - group "Pen" [ref=e126]:
+                          - button "Pen" [ref=e127]
+                          - button "Creation tools" [ref=e128]
+                        - button "Text" [ref=e129]
+                        - button "Actions" [ref=e130]
+                      - text: Request sent
+                  - radiogroup "Toolbelt Mode" [ref=e134]:
+                    - generic [ref=e136]:
+                      - generic [ref=e138]:
+                        - radio "Design" [checked] [ref=e139]
+                        - generic [ref=e143]: Design
+                      - generic [ref=e144]:
+                        - radio "Motion" [ref=e145]
+                        - generic [ref=e149]: Motion
+                      - generic [ref=e150]:
+                        - radio "Dev Mode" [ref=e151]
+                        - generic [ref=e155]: Dev Mode
+                - generic [ref=e156]:
+                  - generic [ref=e157]: Sign up to comment, edit, inspect and more.
+                  - generic [ref=e158]:
+                    - button "Sign up" [ref=e159]
+                    - button "Continue with Google" [ref=e162]:
+                      - generic: Continue
+    - region "Help/zoom toolbar" [ref=e29]:
+      - toolbar "Help/zoom toolbar" [ref=e31]:
+        - button "Help" [ref=e33]
+  - generic:
+    - status
+    - group [ref=e35]:
+      - alert [ref=e37]
+      - alert [ref=e39]
