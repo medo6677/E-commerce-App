@@ -5,7 +5,7 @@ import { ProductCardActions } from "./product-card-actions";
 import { ProductT } from "@/types/productCard/product";
 
 export function ProductCardImage({ product }: { product: ProductT }) {
-  console.log(product.imageCover);
+ 
 
   return (
     <div className="relative flex flex-1 items-center justify-center bg-white p-5">

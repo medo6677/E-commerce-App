@@ -20,7 +20,7 @@ export default async function ProductDetailsPage({
     `https://ecommerce.routemisr.com/api/v1/products/${id}`,
   );
   const { data } = await response.json();
-  console.log(data);
+ 
   return (
     <div className="mx-auto max-w-[1440px] px-4 sm:px-6 my-6">
       <div className="bredCrumb">

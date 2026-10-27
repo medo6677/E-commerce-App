@@ -5,7 +5,6 @@ export default async function ProductsPage() {
     `https://ecommerce.routemisr.com/api/v1/products`,
   );
   const { data: featuredProducts } = await response.json();
-  console.log(featuredProducts);
 
   return (
     <main className=" w-full   mx-auto max-w-[1440px] px-4 sm:px-6 my-6">
