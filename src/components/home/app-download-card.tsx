@@ -1,4 +1,4 @@
-import { Apple, Play } from "lucide-react";
+import { Apple, Play, Smartphone } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -27,7 +27,7 @@ export function AppDownloadCard() {
       />
       <div className="relative">
         <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-medium uppercase tracking-wide text-emerald-400">
-          <span aria-hidden="true">📱</span>
+          <span aria-hidden="true"><Smartphone size={16} /></span>
           Mobile App
         </span>
         <h2 className="mt-5 text-2xl font-bold">Shop Faster on Our App</h2>

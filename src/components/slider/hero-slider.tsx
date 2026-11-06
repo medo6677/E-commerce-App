@@ -43,6 +43,7 @@ export function HeroSlider() {
         onSwiper={setSwiper}
         onSlideChange={(instance) => setActiveIndex(instance.realIndex)}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
+        loop
         modules={[Autoplay]}
         className="hero-slider !h-[360px] sm:!h-[400px]"
       >

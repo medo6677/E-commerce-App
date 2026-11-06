@@ -47,6 +47,54 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
+@keyframes loading-cart-travel {
+  0%,
+  100% {
+    transform: translate(-56px, 0);
+  }
+
+  50% {
+    transform: translate(56px, -5px);
+  }
+}
+
+@keyframes loading-cart-track {
+  to {
+    background-position: 16px 0;
+  }
+}
+
+.loading-cart-track {
+  display: flex;
+  width: 192px;
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+  background-image: repeating-linear-gradient(
+    to right,
+    #d1fae5 0 8px,
+    transparent 8px 16px
+  );
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  background-size: 16px 3px;
+  animation: loading-cart-track 0.5s linear infinite;
+}
+
+.loading-cart-icon {
+  width: 48px;
+  height: 48px;
+  color: #059669;
+  animation: loading-cart-travel 1.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loading-cart-track,
+  .loading-cart-icon {
+    animation: none;
+  }
+}
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);

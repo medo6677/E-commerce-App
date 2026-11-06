@@ -5,18 +5,19 @@ import { ShopByCategory } from "@/components/home/shop-by-category";
 import { ProductCardSkeleton } from "@/components/products/product-card-skeleton";
 import { ProductGrid } from "@/components/products/product-grid";
 import { HeroSlider } from "@/components/slider/hero-slider";
+import { HeroSliderSkeleton } from "@/components/slider/hero-slider-skeleton";
 
 import { Suspense } from "react";
 
 export default async function Home() {
   return (
     <>
-
+      <Suspense fallback={<HeroSliderSkeleton />}>
         <HeroSlider />
+      </Suspense>
       <BenefitsStrip />
       <ShopByCategory />
       <DealBanners />
-      {/* class="mx-auto max-w-[1568px] px-4 py-10 sm:px-6 lg:px-8" */}
 
       <section
         aria-labelledby="featured-products-title "
@@ -28,17 +29,17 @@ export default async function Home() {
         >
           Featured <span className="text-emerald-600">Products</span>
         </h1>
-        {/* <Suspense
+        <Suspense
           fallback={
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-5 w-full">
-              {[1, 2, 3, 4, 5, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8].map((i,index) => {
-                return <ProductCardSkeleton  key={index}/>;
+              {[1, 2, 3, 4, 5, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8].map((i, index) => {
+                return <ProductCardSkeleton key={index} />;
               })}
             </div>
           }
         >
-        </Suspense> */}
           <ProductGrid />
+        </Suspense>
       </section>
       <NewsletterAppPromo />
     </>

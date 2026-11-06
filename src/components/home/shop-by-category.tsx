@@ -7,7 +7,12 @@ import { getCategories } from "@/services/home/categories.services";
 import { cacheLife } from "next/cache";
 
 export async function ShopByCategory() {
-
+  "use cache";
+  cacheLife({
+    stale: 3600,
+    revalidate: 172800,
+    expire: 172800,
+  }); 
   const categories = await getCategories();
 
   return (
@@ -37,7 +42,10 @@ export async function ShopByCategory() {
             key={category._id}
             className="h-[150px] items-center justify-center gap-3 rounded-xl border-slate-100 bg-white px-3 py-4 shadow-sm transition-all duration-300 hover:scale-105  cursor-pointer hover:shadow-md "
           >
-            <Link href={`categories/${category._id}`}>
+            <Link
+              href={`categories/${category._id}`}
+              className="flex flex-col items-center justify-center"
+            >
               <div className="relative size-20 shrink-0 overflow-hidden rounded-full bg-slate-50">
                 <Image
                   src={category.image}
@@ -47,7 +55,7 @@ export async function ShopByCategory() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-center text-sm font-medium leading-5 text-slate-700 sm:text-base">
+              <h3 className="text-center text-sm font-medium leading-5 text-slate-700 sm:text-base pt-3">
                 {category.name}
               </h3>
             </Link>
