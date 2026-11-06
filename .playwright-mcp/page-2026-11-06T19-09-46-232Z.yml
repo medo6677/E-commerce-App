@@ -1,0 +1,11 @@
+- generic [ref=f46e5]:
+  - generic [ref=f46e6]:
+    - status [ref=f46e11]: Loading
+    - region "Help/zoom toolbar" [ref=f46e29]:
+      - toolbar "Help/zoom toolbar" [ref=f46e31]:
+        - button "Help" [ref=f46e34]
+  - generic:
+    - status
+    - group [ref=f46e36]:
+      - alert [ref=f46e38]
+      - alert [ref=f46e40]

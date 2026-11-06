@@ -1,0 +1,529 @@
+- generic [ref=f15e2]:
+  - link [ref=f15e3] [cursor=pointer]:
+    - /url: "#main"
+    - paragraph [ref=f15e4]: Skip to main content
+  - banner [ref=f15e6]:
+    - generic [ref=f15e8]:
+      - generic [ref=f15e9]:
+        - link [ref=f15e10] [cursor=pointer]:
+          - /url: https://www.figma.com/
+          - img "Homepage" [ref=f15e11]
+        - navigation "Main" [ref=f15e17]:
+          - list [ref=f15e18]:
+            - listitem [ref=f15e19]:
+              - button "Products" [ref=f15e21] [cursor=pointer]
+            - listitem [ref=f15e25]:
+              - button "Solutions" [ref=f15e27] [cursor=pointer]
+            - listitem [ref=f15e31]:
+              - button "Community" [ref=f15e33] [cursor=pointer]
+            - listitem [ref=f15e37]:
+              - button "Resources" [ref=f15e39] [cursor=pointer]
+            - listitem [ref=f15e43]:
+              - link "Pricing" [ref=f15e44] [cursor=pointer]:
+                - /url: https://www.figma.com/pricing/
+      - list [ref=f15e46]:
+        - listitem [ref=f15e47]:
+          - link "Log in" [ref=f15e48] [cursor=pointer]:
+            - /url: https://www.figma.com/login
+        - listitem [ref=f15e50]:
+          - link "Contact sales" [ref=f15e51] [cursor=pointer]:
+            - /url: https://www.figma.com/contact/
+        - listitem [ref=f15e54]:
+          - link "Get started for free" [ref=f15e55] [cursor=pointer]:
+            - /url: https://www.figma.com/signup
+  - main [ref=f15e58]:
+    - region [ref=f15e59]:
+      - generic [ref=f15e60]:
+        - heading "The full-stack creative canvas" [level=1] [ref=f15e62]
+        - link "Get started" [ref=f15e69] [cursor=pointer]:
+          - /url: https://www.figma.com/signup
+    - region [ref=f15e72]:
+      - generic [ref=f15e73]:
+        - generic [ref=f15e76]:
+          - heading "Move fast in the right direction on an AI-native canvas." [level=2] [ref=f15e77]
+          - paragraph [ref=f15e78]: Teammates and AI agents work in the same space with shared context. Generate new ideas, refine, and align—together.
+        - list [ref=f15e79]:
+          - listitem [ref=f15e80]:
+            - article [ref=f15e81]
+          - listitem [ref=f15e83]:
+            - article [ref=f15e84]:
+              - generic [ref=f15e85]:
+                - generic [ref=f15e90]:
+                  - paragraph [ref=f15e91]: Your built-in creative collaborator
+                  - paragraph [ref=f15e92]: Ask Figma’s agent to add motion to designs, document your design systems, implement feedback, and more.
+                - link "Explore Figma's agent" [ref=f15e95] [cursor=pointer]:
+                  - /url: https://www.figma.com/agent/
+    - region [ref=f15e97]:
+      - generic [ref=f15e98]:
+        - generic [ref=f15e101]:
+          - heading "One workspace for your entire product development process." [level=2] [ref=f15e102]
+          - paragraph [ref=f15e103]: Made so your whole team can go from WIP to ship, together.
+        - list [ref=f15e108]:
+          - listitem [ref=f15e109]:
+            - article [ref=f15e110]:
+              - generic [ref=f15e115]:
+                - heading "Design anything you can imagine" [level=3] [ref=f15e116]
+                - paragraph [ref=f15e117]: Turn your ideas into apps, websites, and products.
+              - link "Explore design tools" [ref=f15e120] [cursor=pointer]:
+                - /url: https://www.figma.com/design-explore/
+          - listitem [ref=f15e122]:
+            - article [ref=f15e123]:
+              - generic [ref=f15e128]:
+                - heading "Build with intention" [level=3] [ref=f15e129]
+                - paragraph [ref=f15e130]: Dev tools that take you all the way to production.
+              - link "Explore build tools" [ref=f15e133] [cursor=pointer]:
+                - /url: https://www.figma.com/build-ship/
+    - region [ref=f15e135]:
+      - generic [ref=f15e137]:
+        - generic [ref=f15e138]:
+          - heading "Powerfully expressive. Incredibly precise." [level=2] [ref=f15e139]
+          - paragraph [ref=f15e140]: Every technical tool you need to dial in the details.
+        - link "Explore Figma Design" [ref=f15e142] [cursor=pointer]:
+          - /url: https://www.figma.com/design/
+      - list [ref=f15e144]:
+        - listitem [ref=f15e145]:
+          - img "A mock website showing Texture values" [ref=f15e146]
+          - img "A mock website showing Texture values"
+        - listitem [ref=f15e147]
+        - listitem [ref=f15e149]
+        - listitem [ref=f15e151]
+        - listitem [ref=f15e153]:
+          - img "UI showing different brush stokes that can be applied to type" [ref=f15e154]
+          - img "UI showing different brush stokes that can be applied to type"
+        - listitem [ref=f15e155]:
+          - img "A cursor vector editing a design" [ref=f15e156]
+          - img "A cursor vector editing a design"
+        - listitem [ref=f15e157]
+        - listitem [ref=f15e159]:
+          - img "Type on a path shown in purple and teal against a pink background" [ref=f15e160]
+          - img "Type on a path shown in purple and teal against a pink background"
+        - listitem [ref=f15e161]
+        - listitem [ref=f15e163]:
+          - img "A prompt node and a pre-selected image node connect to create the visual output of a butterfly on the Figma Weave interface" [ref=f15e164]
+          - img "A prompt node and a pre-selected image node connect to create the visual output of a butterfly on the Figma Weave interface"
+        - listitem [ref=f15e165]
+        - listitem [ref=f15e167]:
+          - img "UI over a butterfly bitmap mosaic with optionality to change the spacing and establish minimum and maximum sizes" [ref=f15e168]
+          - img "UI over a butterfly bitmap mosaic with optionality to change the spacing and establish minimum and maximum sizes"
+    - region [ref=f15e169]:
+      - generic [ref=f15e170]:
+        - generic [ref=f15e173]:
+          - heading "Start with design context. Build with consistency." [level=2] [ref=f15e174]
+          - paragraph [ref=f15e175]: Your context, codebase, and agents stay connected so what you design is what gets shipped.
+        - link "Explore Figma Make" [ref=f15e183] [cursor=pointer]:
+          - /url: https://www.figma.com/make/
+    - region [ref=f15e185]:
+      - generic [ref=f15e187]:
+        - heading "The products you love are designed in Figma" [level=2] [ref=f15e190]
+        - generic [ref=f15e191]:
+          - generic [ref=f15e192]:
+            - figure [ref=f15e193]:
+              - blockquote [ref=f15e194]:
+                - paragraph [ref=f15e195]: “Everyone is able to influence, inspire, and give input without ever leaving the design file. That creates a really transparent, open, and honest process throughout the whole project.”
+              - generic [ref=f15e197]:
+                - img "headshot of Francisco" [ref=f15e200]
+                - generic [ref=f15e201]:
+                  - generic [ref=f15e202]: Francisco Seiz
+                  - paragraph [ref=f15e203]: Senior Design Director, Code and Theory
+            - generic [ref=f15e204]:
+              - list [ref=f15e205]:
+                - listitem [ref=f15e206]:
+                  - generic [ref=f15e208]:
+                    - generic [ref=f15e209]: 95%
+                    - generic [aria-hidden] [ref=f15e210]: 95%
+                  - paragraph [ref=f15e213]: 95% of the Fortune 500 uses Figma
+              - paragraph [ref=f15e216]: Based on data from March 2025.
+          - generic [ref=f15e217]:
+            - generic [ref=f15e219]:
+              - list "Logo marquee" [ref=f15e220]:
+                - listitem [ref=f15e221]:
+                  - img "airbnb logo" [ref=f15e222]
+                - listitem [ref=f15e223]:
+                  - img "atlassian logo" [ref=f15e224]
+                - listitem [ref=f15e225]:
+                  - img "dropbox logo" [ref=f15e226]
+                - listitem [ref=f15e227]:
+                  - img "duolingo logo" [ref=f15e228]
+                - listitem [ref=f15e229]:
+                  - img "github logo" [ref=f15e230]
+                - listitem [ref=f15e231]:
+                  - img "mercado libre logo" [ref=f15e232]
+                - listitem [ref=f15e233]:
+                  - img "microsoft logo" [ref=f15e234]
+                - listitem [ref=f15e235]:
+                  - img "netflix logo" [ref=f15e236]
+                - listitem [ref=f15e237]:
+                  - img "pentagram logo" [ref=f15e238]
+                - listitem [ref=f15e239]:
+                  - img "slack logo" [ref=f15e240]
+                - listitem [ref=f15e241]:
+                  - img "stripe logo" [ref=f15e242]
+                - listitem [ref=f15e243]:
+                  - img "the new york times logo" [ref=f15e244]
+                - listitem [ref=f15e245]:
+                  - img "zoom logo" [ref=f15e246]
+              - list [aria-hidden] [ref=f15e247]:
+                - listitem [ref=f15e248]
+                - listitem [ref=f15e250]
+                - listitem [ref=f15e252]
+                - listitem [ref=f15e254]
+                - listitem [ref=f15e256]
+                - listitem [ref=f15e258]
+                - listitem [ref=f15e260]
+                - listitem [ref=f15e262]
+                - listitem [ref=f15e264]
+                - listitem [ref=f15e266]
+                - listitem [ref=f15e268]
+                - listitem [ref=f15e270]
+                - listitem [ref=f15e272]
+              - list [aria-hidden] [ref=f15e274]:
+                - listitem [ref=f15e275]
+                - listitem [ref=f15e277]
+                - listitem [ref=f15e279]
+                - listitem [ref=f15e281]
+                - listitem [ref=f15e283]
+                - listitem [ref=f15e285]
+                - listitem [ref=f15e287]
+                - listitem [ref=f15e289]
+                - listitem [ref=f15e291]
+                - listitem [ref=f15e293]
+                - listitem [ref=f15e295]
+                - listitem [ref=f15e297]
+                - listitem [ref=f15e299]
+              - list [aria-hidden] [ref=f15e301]:
+                - listitem [ref=f15e302]
+                - listitem [ref=f15e304]
+                - listitem [ref=f15e306]
+                - listitem [ref=f15e308]
+                - listitem [ref=f15e310]
+                - listitem [ref=f15e312]
+                - listitem [ref=f15e314]
+                - listitem [ref=f15e316]
+                - listitem [ref=f15e318]
+                - listitem [ref=f15e320]
+                - listitem [ref=f15e322]
+                - listitem [ref=f15e324]
+                - listitem [ref=f15e326]
+            - button "pause" [ref=f15e328] [cursor=pointer]
+    - region [ref=f15e333]:
+      - generic [ref=f15e334]:
+        - generic [ref=f15e335]:
+          - generic [ref=f15e336]:
+            - heading "Explore what you can do in Figma." [level=2] [ref=f15e337]
+            - paragraph [ref=f15e338]: Browse resources made by the community.
+          - link "Browse all templates" [ref=f15e340] [cursor=pointer]:
+            - /url: https://www.figma.com/community
+        - group "Explore what you can do in Figma." [ref=f15e342]:
+          - generic [ref=f15e343]:
+            - generic [ref=f15e344]:
+              - status [ref=f15e345]: Slide 1 of 10
+              - text: 1 of 10
+            - group "Slide controls" [ref=f15e346]:
+              - button "Previous slide" [ref=f15e347] [cursor=pointer]
+              - button "Next slide" [ref=f15e352] [cursor=pointer]
+          - generic [ref=f15e359]:
+            - group "slide 1" [ref=f15e360]:
+              - article [ref=f15e361]:
+                - img "Components for chips, cards, tiles, and checkboxes" [ref=f15e362]
+                - img "Components for chips, cards, tiles, and checkboxes"
+                - generic [ref=f15e363]:
+                  - heading "UI kits" [level=2] [ref=f15e364]
+                  - link "UI Kits" [ref=f15e366] [cursor=pointer]:
+                    - /url: https://www.figma.com/community/ui-kits/
+            - group [aria-hidden] [ref=f15e368]:
+              - article [ref=f15e369]:
+                - generic [ref=f15e371]:
+                  - heading [level=2] [ref=f15e372]: Websites
+                  - link [ref=f15e374] [cursor=pointer]:
+                    - /url: https://www.figma.com/community/website-templates/
+                    - generic [ref=f15e375]: Websites
+            - group [aria-hidden] [ref=f15e376]:
+              - article [ref=f15e377]:
+                - generic [ref=f15e379]:
+                  - heading [level=2] [ref=f15e380]: Social media
+                  - link [ref=f15e382] [cursor=pointer]:
+                    - /url: https://www.figma.com/community/social-media-templates
+                    - generic [ref=f15e383]: Social media
+            - group [aria-hidden] [ref=f15e384]:
+              - article [ref=f15e385]:
+                - generic [ref=f15e387]:
+                  - heading [level=2] [ref=f15e388]: Mobile apps
+                  - link [ref=f15e390] [cursor=pointer]:
+                    - /url: https://www.figma.com/community/mobile-apps
+                    - generic [ref=f15e391]: Mobile apps
+            - group [aria-hidden] [ref=f15e392]:
+              - article [ref=f15e393]:
+                - generic [ref=f15e395]:
+                  - heading [level=2] [ref=f15e396]: Presentations
+                  - link [ref=f15e398] [cursor=pointer]:
+                    - /url: https://www.figma.com/community/presentations
+                    - generic [ref=f15e399]: Presentations
+            - group [aria-hidden] [ref=f15e400]:
+              - article [ref=f15e401]:
+                - generic [ref=f15e403]:
+                  - heading [level=2] [ref=f15e404]: Wireframes
+                  - link [ref=f15e406] [cursor=pointer]:
+                    - /url: https://www.figma.com/community/wireframes
+                    - generic [ref=f15e407]: Wireframes
+            - group [aria-hidden] [ref=f15e408]:
+              - article [ref=f15e409]:
+                - generic [ref=f15e411]:
+                  - heading [level=2] [ref=f15e412]: Illustrations
+                  - link [ref=f15e414] [cursor=pointer]:
+                    - /url: https://www.figma.com/community/illustrations
+                    - generic [ref=f15e415]: Illustrations
+            - group [aria-hidden] [ref=f15e416]:
+              - article [ref=f15e417]:
+                - generic [ref=f15e419]:
+                  - heading [level=2] [ref=f15e420]: Portfolios
+                  - link [ref=f15e422] [cursor=pointer]:
+                    - /url: https://www.figma.com/community/portfolio-templates
+                    - generic [ref=f15e423]: Portfolios
+            - group [aria-hidden] [ref=f15e424]:
+              - article [ref=f15e425]:
+                - generic [ref=f15e427]:
+                  - heading [level=2] [ref=f15e428]: Web ads
+                  - link [ref=f15e430] [cursor=pointer]:
+                    - /url: https://www.figma.com/community/web-ads
+                    - generic [ref=f15e431]: Web ads
+            - group [aria-hidden] [ref=f15e432]:
+              - article [ref=f15e433]:
+                - generic [ref=f15e435]:
+                  - heading [level=2] [ref=f15e436]: Icons
+                  - link [ref=f15e438] [cursor=pointer]:
+                    - /url: https://www.figma.com/community/icons
+                    - generic [ref=f15e439]: Icons
+  - contentinfo [ref=f15e440]:
+    - generic [ref=f15e441]:
+      - generic [ref=f15e442]:
+        - link "Homepage" [ref=f15e443] [cursor=pointer]:
+          - /url: https://www.figma.com/
+        - generic [ref=f15e446]:
+          - heading "Figma Socials" [level=2] [ref=f15e447]
+          - list [ref=f15e448]:
+            - listitem [ref=f15e449]:
+              - link "X" [ref=f15e450] [cursor=pointer]:
+                - /url: https://x.com/figma
+            - listitem [ref=f15e453]:
+              - link "YouTube" [ref=f15e454] [cursor=pointer]:
+                - /url: https://www.youtube.com/figmadesign
+            - listitem [ref=f15e457]:
+              - link "Instagram" [ref=f15e458] [cursor=pointer]:
+                - /url: https://www.instagram.com/figma
+            - listitem [ref=f15e461]:
+              - link "Facebook" [ref=f15e462] [cursor=pointer]:
+                - /url: https://www.facebook.com/figmadesign
+      - generic [ref=f15e465]:
+        - generic [ref=f15e466]:
+          - heading "Product" [level=2] [ref=f15e467]
+          - list "Product" [ref=f15e468]:
+            - listitem [ref=f15e469]:
+              - link "Figma Design" [ref=f15e470] [cursor=pointer]:
+                - /url: https://www.figma.com/design/
+            - listitem [ref=f15e471]:
+              - link "Figma Make" [ref=f15e472] [cursor=pointer]:
+                - /url: https://www.figma.com/make/
+            - listitem [ref=f15e473]:
+              - link "Figma Weave New" [ref=f15e474] [cursor=pointer]:
+                - /url: https://weave.figma.com/
+                - text: Figma Weave
+                - generic [ref=f15e475]: New
+            - listitem [ref=f15e476]:
+              - link "Dev Mode" [ref=f15e477] [cursor=pointer]:
+                - /url: https://www.figma.com/dev-mode/
+            - listitem [ref=f15e478]:
+              - link "Figma Motion New" [ref=f15e479] [cursor=pointer]:
+                - /url: https://www.figma.com/motion/
+                - text: Figma Motion
+                - generic [ref=f15e480]: New
+            - listitem [ref=f15e481]:
+              - link "Figma Specs Beta" [ref=f15e482] [cursor=pointer]:
+                - /url: https://www.figma.com/specs/
+                - text: Figma Specs
+                - generic [ref=f15e483]: Beta
+            - listitem [ref=f15e484]:
+              - link "FigJam" [ref=f15e485] [cursor=pointer]:
+                - /url: https://www.figma.com/figjam/
+            - listitem [ref=f15e486]:
+              - link "Figma Slides" [ref=f15e487] [cursor=pointer]:
+                - /url: https://www.figma.com/slides/
+            - listitem [ref=f15e488]:
+              - link "Figma Draw" [ref=f15e489] [cursor=pointer]:
+                - /url: https://www.figma.com/draw/
+            - listitem [ref=f15e490]:
+              - link "Figma Sites Beta" [ref=f15e491] [cursor=pointer]:
+                - /url: https://www.figma.com/sites/
+                - text: Figma Sites
+                - generic [ref=f15e492]: Beta
+            - listitem [ref=f15e493]:
+              - link "Figma Buzz Beta" [ref=f15e494] [cursor=pointer]:
+                - /url: https://www.figma.com/buzz/
+                - text: Figma Buzz
+                - generic [ref=f15e495]: Beta
+            - listitem [ref=f15e496]:
+              - link "Figma agent" [ref=f15e497] [cursor=pointer]:
+                - /url: https://www.figma.com/agent/
+            - listitem [ref=f15e498]:
+              - link "Design and explore" [ref=f15e499] [cursor=pointer]:
+                - /url: https://www.figma.com/design-explore/
+            - listitem [ref=f15e500]:
+              - link "Build and ship products" [ref=f15e501] [cursor=pointer]:
+                - /url: https://www.figma.com/build-ship/
+            - listitem [ref=f15e502]:
+              - link "AI workflows" [ref=f15e503] [cursor=pointer]:
+                - /url: https://www.figma.com/ai/
+            - listitem [ref=f15e504]:
+              - link "Release notes" [ref=f15e505] [cursor=pointer]:
+                - /url: https://www.figma.com/release-notes/
+            - listitem [ref=f15e506]:
+              - link "Downloads" [ref=f15e507] [cursor=pointer]:
+                - /url: https://www.figma.com/downloads/
+        - generic [ref=f15e508]:
+          - heading "Plans" [level=2] [ref=f15e509]
+          - list "Plans" [ref=f15e510]:
+            - listitem [ref=f15e511]:
+              - link "Pricing" [ref=f15e512] [cursor=pointer]:
+                - /url: https://www.figma.com/pricing/
+            - listitem [ref=f15e513]:
+              - link "Enterprise" [ref=f15e514] [cursor=pointer]:
+                - /url: https://www.figma.com/enterprise/
+            - listitem [ref=f15e515]:
+              - link "Organization" [ref=f15e516] [cursor=pointer]:
+                - /url: https://www.figma.com/organization/
+            - listitem [ref=f15e517]:
+              - link "Professional" [ref=f15e518] [cursor=pointer]:
+                - /url: https://www.figma.com/professional/
+      - generic [ref=f15e520]:
+        - heading "Use cases" [level=2] [ref=f15e521]
+        - list "Use cases" [ref=f15e522]:
+          - listitem [ref=f15e523]:
+            - link "UI design" [ref=f15e524] [cursor=pointer]:
+              - /url: https://www.figma.com/ui-design-tool/
+          - listitem [ref=f15e525]:
+            - link "UX design" [ref=f15e526] [cursor=pointer]:
+              - /url: https://www.figma.com/ux-design-tool/
+          - listitem [ref=f15e527]:
+            - link "Wireframing" [ref=f15e528] [cursor=pointer]:
+              - /url: https://www.figma.com/wireframe-tool/
+          - listitem [ref=f15e529]:
+            - link "Diagramming" [ref=f15e530] [cursor=pointer]:
+              - /url: https://www.figma.com/figjam/diagramming-tool/
+          - listitem [ref=f15e531]:
+            - link "Prototyping" [ref=f15e532] [cursor=pointer]:
+              - /url: https://www.figma.com/prototyping/
+          - listitem [ref=f15e533]:
+            - link "Brainstorming" [ref=f15e534] [cursor=pointer]:
+              - /url: https://www.figma.com/figjam/brainstorming-tool/
+          - listitem [ref=f15e535]:
+            - link "Presentation Maker" [ref=f15e536] [cursor=pointer]:
+              - /url: https://www.figma.com/presentation-maker/
+          - listitem [ref=f15e537]:
+            - link "Online whiteboard" [ref=f15e538] [cursor=pointer]:
+              - /url: https://www.figma.com/figjam/online-whiteboard/
+          - listitem [ref=f15e539]:
+            - link "Strategic planning" [ref=f15e540] [cursor=pointer]:
+              - /url: https://www.figma.com/figjam/strategic-planning/
+          - listitem [ref=f15e541]:
+            - link "Mind mapping" [ref=f15e542] [cursor=pointer]:
+              - /url: https://www.figma.com/figjam/mind-map/
+          - listitem [ref=f15e543]:
+            - link "AI website generator" [ref=f15e544] [cursor=pointer]:
+              - /url: https://www.figma.com/solutions/ai-website-generator/
+          - listitem [ref=f15e545]:
+            - link "AI design generator" [ref=f15e546] [cursor=pointer]:
+              - /url: https://www.figma.com/solutions/ai-design-generator/
+          - listitem [ref=f15e547]:
+            - link "AI app builder" [ref=f15e548] [cursor=pointer]:
+              - /url: https://www.figma.com/solutions/ai-app-builder/
+          - listitem [ref=f15e549]:
+            - link "AI UI generator" [ref=f15e550] [cursor=pointer]:
+              - /url: https://www.figma.com/solutions/ai-ui-generator/
+          - listitem [ref=f15e551]:
+            - link "Weave AI tool" [ref=f15e552] [cursor=pointer]:
+              - /url: https://www.figma.com/solutions/figma-ai-tool-weave/
+      - generic [ref=f15e554]:
+        - heading "Resources" [level=2] [ref=f15e555]
+        - list "Resources" [ref=f15e556]:
+          - listitem [ref=f15e557]:
+            - link "Blog" [ref=f15e558] [cursor=pointer]:
+              - /url: https://www.figma.com/blog/
+          - listitem [ref=f15e559]:
+            - link "Best practices" [ref=f15e560] [cursor=pointer]:
+              - /url: https://www.figma.com/best-practices/
+          - listitem [ref=f15e561]:
+            - link "Gradient Library" [ref=f15e562] [cursor=pointer]:
+              - /url: https://www.figma.com/gradients/
+          - listitem [ref=f15e563]:
+            - link "Gradient Generator" [ref=f15e564] [cursor=pointer]:
+              - /url: https://www.figma.com/gradient-generator/
+          - listitem [ref=f15e565]:
+            - link "GIF maker" [ref=f15e566] [cursor=pointer]:
+              - /url: https://www.figma.com/gif-maker/
+          - listitem [ref=f15e567]:
+            - link "Color wheel" [ref=f15e568] [cursor=pointer]:
+              - /url: https://www.figma.com/color-wheel/
+          - listitem [ref=f15e569]:
+            - link "Colors" [ref=f15e570] [cursor=pointer]:
+              - /url: https://www.figma.com/colors/
+          - listitem [ref=f15e571]:
+            - link "Color picker" [ref=f15e572] [cursor=pointer]:
+              - /url: https://www.figma.com/color-picker/
+          - listitem [ref=f15e573]:
+            - link "Font Library" [ref=f15e574] [cursor=pointer]:
+              - /url: https://www.figma.com/fonts/
+          - listitem [ref=f15e575]:
+            - link "Templates" [ref=f15e576] [cursor=pointer]:
+              - /url: https://www.figma.com/templates/
+          - listitem [ref=f15e577]:
+            - link "Developers" [ref=f15e578] [cursor=pointer]:
+              - /url: https://www.figma.com/developers
+          - listitem [ref=f15e579]:
+            - link "Integrations" [ref=f15e580] [cursor=pointer]:
+              - /url: https://www.figma.com/product-integrations/
+          - listitem [ref=f15e581]:
+            - link "Affiliate program" [ref=f15e582] [cursor=pointer]:
+              - /url: https://www.figma.com/affiliate-program/
+          - listitem [ref=f15e583]:
+            - link "Resource library" [ref=f15e584] [cursor=pointer]:
+              - /url: https://www.figma.com/resource-library/
+          - listitem [ref=f15e585]:
+            - link "Reports and insights" [ref=f15e586] [cursor=pointer]:
+              - /url: https://www.figma.com/reports/
+          - listitem [ref=f15e587]:
+            - link "Support" [ref=f15e588] [cursor=pointer]:
+              - /url: https://help.figma.com/hc/en-us
+          - listitem [ref=f15e589]:
+            - link "Status" [ref=f15e590] [cursor=pointer]:
+              - /url: https://status.figma.com/
+          - listitem [ref=f15e591]:
+            - link "Legal and privacy" [ref=f15e592] [cursor=pointer]:
+              - /url: https://www.figma.com/legal/
+          - listitem [ref=f15e593]:
+            - link "Modern slavery statement" [ref=f15e594] [cursor=pointer]:
+              - /url: https://static.figma.com/uploads/35bc6db4415269cfeace41c8c4637945a85732b2.pdf
+          - listitem [ref=f15e595]:
+            - link "Climate disclosure statement" [ref=f15e596] [cursor=pointer]:
+              - /url: https://static.figma.com/uploads/d2a204b5cc4d64ff539fcd445d0ddedab7dc00f6
+          - listitem [ref=f15e597]:
+            - link "Impressum" [ref=f15e598] [cursor=pointer]:
+              - /url: https://www.figma.com/legal/impressum/
+      - generic [ref=f15e600]:
+        - heading "Company" [level=2] [ref=f15e601]
+        - list "Company" [ref=f15e602]:
+          - listitem [ref=f15e603]:
+            - link "Events" [ref=f15e604] [cursor=pointer]:
+              - /url: https://www.figma.com/events/
+          - listitem [ref=f15e605]:
+            - link "Customers" [ref=f15e606] [cursor=pointer]:
+              - /url: https://www.figma.com/customers/
+          - listitem [ref=f15e607]:
+            - link "Careers" [ref=f15e608] [cursor=pointer]:
+              - /url: https://www.figma.com/careers/
+          - listitem [ref=f15e609]:
+            - link "Newsroom" [ref=f15e610] [cursor=pointer]:
+              - /url: https://www.figma.com/newsroom/
+          - listitem [ref=f15e611]:
+            - link "Brand assets" [ref=f15e612] [cursor=pointer]:
+              - /url: https://www.figma.com/using-the-figma-brand/
+      - navigation "Choose a language" [ref=f15e615]:
+        - button "English" [ref=f15e616] [cursor=pointer]

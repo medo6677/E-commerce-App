@@ -1,10 +1,8 @@
 import { ProductGrid } from "@/components/products/product-grid";
+import { getProducts } from "@/services/products/products.services";
 
 export default async function ProductsPage() {
-  const response = await fetch(
-    `https://ecommerce.routemisr.com/api/v1/products`,
-  );
-  const { data: featuredProducts } = await response.json();
+
 
   return (
     <main className=" w-full   mx-auto max-w-[1440px] px-4 sm:px-6 my-6">
@@ -15,7 +13,7 @@ export default async function ProductsPage() {
         >
           Featured <span className="text-emerald-600">Products</span>
         </h1>
-        <ProductGrid products={featuredProducts} />
+        <ProductGrid  />
       </section>
     </main>
   );

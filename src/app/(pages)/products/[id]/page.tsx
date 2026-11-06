@@ -1,6 +1,7 @@
 import Slider from "@/components/slider/slider";
 import { ProductDetails } from "@/components/products/product-details";
 import { ProductDetailsTabs } from "@/components/products/product-details-tabs";
+import { getProductById } from "@/services/products/products.services";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -16,11 +17,8 @@ export default async function ProductDetailsPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const response = await fetch(
-    `https://ecommerce.routemisr.com/api/v1/products/${id}`,
-  );
-  const { data } = await response.json();
- 
+  const data = await getProductById(id);
+
   return (
     <div className="mx-auto max-w-[1440px] px-4 sm:px-6 my-6">
       <div className="bredCrumb">
@@ -35,7 +33,7 @@ export default async function ProductDetailsPage({
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>{data.title}</BreadcrumbPage>
+              <BreadcrumbPage>{data?.title}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
@@ -43,7 +41,7 @@ export default async function ProductDetailsPage({
       <div className="product">
         <div className="grid grid-cols-12 gap-6 py-5 relative">
           <div className="md:order-1 col-span-12 md:col-span-4 order-2 overflow-hidden rounded-2xl p-3 shadow-sm self-start bg-white sticky md:top-34 lg:top-20">
-            <Slider imgs={data.images} />
+            <Slider imgs={data?.images || []} />
           </div>
           <div className="col-span-12 md:col-span-8 order-1 rounded-2xl p-3 shadow-sm bg-white">
             <ProductDetails product={data} />

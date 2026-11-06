@@ -38,7 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         spaceGrotesk.variable,
       )}
     >
-      <body className="min-h-full flex flex-col relative">
+      <body className="min-h-full flex flex-col relative ">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
