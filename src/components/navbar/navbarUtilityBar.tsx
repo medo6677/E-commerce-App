@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { Gift, LogIn, Mail, Phone, Truck, UserRound } from "lucide-react";
+import { Gift, Mail, Phone, Truck } from "lucide-react";
 
 export function NavbarUtilityBar() {
   return (
@@ -28,15 +27,6 @@ export function NavbarUtilityBar() {
             <Mail aria-hidden="true" className="size-3.5" />
             support@freshcart.com
           </a>
-          <span aria-hidden="true" className="h-4 border-l border-slate-200" />
-          <Link className="inline-flex items-center gap-2 hover:text-emerald-700" href="/login">
-            <LogIn aria-hidden="true" className="size-3.5" />
-            Sign In
-          </Link>
-          <Link className="inline-flex items-center gap-2 hover:text-emerald-700" href="/register">
-            <UserRound aria-hidden="true" className="size-3.5" />
-            Sign Up
-          </Link>
         </div>
       </div>
     </div>

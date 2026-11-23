@@ -1,0 +1,94 @@
+- generic [ref=f21e5]:
+  - generic [ref=f21e6]:
+    - generic [ref=f21e7]:
+      - generic [ref=f21e53]:
+        - application "Figma Design, 1 item selected" [active] [ref=f21e61]
+        - status [ref=f21e62]: Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+        - status [ref=f21e64]
+        - generic:
+          - generic:
+            - generic:
+              - region "Comments on canvas":
+                - button "Create new comment"
+        - generic:
+          - region "Left sidebar":
+            - generic [ref=f21e65]:
+              - button "Main menu" [ref=f21e66]
+              - button "Expand UI for file named Freshcart [E-Commerce]" [ref=f21e67]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Freshcart [E-Commerce], file name": Freshcart [E-Commerce]
+                      - generic: File name
+        - generic [ref=f21e70]:
+          - generic [ref=f21e72]:
+            - generic [ref=f21e74]:
+              - generic:
+                - generic:
+                  - group "People":
+                    - generic [ref=f21e76]:
+                      - button "Follow Mohamad Ahmed" [ref=f21e77]
+                      - img [ref=f21e85]:
+                        - generic [ref=f21e86]: M
+                    - generic [ref=f21e88]:
+                      - button "Follow Sayed Mohamed" [ref=f21e89]
+                      - img [ref=f21e97]:
+                        - generic [ref=f21e98]: S
+            - button "Multiplayer tools" [ref=f21e102]:
+              - generic [ref=f21e105]: "3"
+          - button "52%, zoom and view options" [ref=f21e111]: 52%
+          - generic [ref=f21e113]:
+            - generic [ref=f21e114]:
+              - button "Present" [ref=f21e115]
+              - button "Prototype view" [ref=f21e116]
+            - button "Share" [ref=f21e118]
+      - generic:
+        - generic:
+          - generic:
+            - region "Application toolbar":
+              - generic [ref=f21e119]:
+                - toolbar "Editor" [ref=f21e121]:
+                  - generic [ref=f21e123]:
+                    - generic:
+                      - generic [ref=f21e126]:
+                        - generic [ref=f21e127]:
+                          - button "Move" [ref=f21e128]
+                          - button "Hand tool" [pressed] [ref=f21e129]
+                          - button "Comment" [ref=f21e130]
+                        - group "Frame" [ref=f21e132]:
+                          - button "Frame" [ref=f21e133]
+                          - button "Region tools" [ref=f21e134]
+                        - group "Rectangle" [ref=f21e135]:
+                          - button "Rectangle" [ref=f21e136]
+                          - button "Shape tools" [ref=f21e137]
+                        - group "Pen" [ref=f21e138]:
+                          - button "Pen" [ref=f21e139]
+                          - button "Creation tools" [ref=f21e140]
+                        - button "Text" [ref=f21e141]
+                        - button "Actions" [ref=f21e142]
+                      - text: Request sent
+                  - radiogroup "Toolbelt Mode" [ref=f21e146]:
+                    - generic [ref=f21e148]:
+                      - generic [ref=f21e150]:
+                        - radio "Design" [checked] [ref=f21e151]
+                        - generic [ref=f21e155]: Design
+                      - generic [ref=f21e156]:
+                        - radio "Motion" [ref=f21e157]
+                        - generic [ref=f21e161]: Motion
+                      - generic [ref=f21e162]:
+                        - radio "Dev Mode" [ref=f21e163]
+                        - generic [ref=f21e167]: Dev Mode
+                - generic [ref=f21e168]:
+                  - generic [ref=f21e169]: Sign up to comment, edit, inspect and more.
+                  - generic [ref=f21e170]:
+                    - button "Sign up" [ref=f21e171]
+                    - button "Continue with Google" [ref=f21e174]:
+                      - generic: Continue
+    - region "Help/zoom toolbar" [ref=f21e31]:
+      - toolbar "Help/zoom toolbar" [ref=f21e33]:
+        - button "Help" [ref=f21e36]
+  - generic:
+    - status
+    - group [ref=f21e45]:
+      - alert [ref=f21e47]
+      - alert [ref=f21e49]

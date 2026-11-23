@@ -1,6 +1,13 @@
-export default function AuthLayout({ children }: LayoutProps<"/">) {
-  return <div className="grid grid-cols-12 gap-6">
-<div className="col-span-6">test</div>
-<div className="col-span-6">{children}</div>
-  </div>;
+import React from "react";
+
+export default function AuthLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="container mx-auto px-4 py-8 md:py-12 flex justify-center items-center min-h-[calc(100vh-160px)]">
+      {children}
+    </div>
+  );
 }

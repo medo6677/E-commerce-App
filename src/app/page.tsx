@@ -2,19 +2,20 @@ import { BenefitsStrip } from "@/components/home/benefits-strip";
 import { DealBanners } from "@/components/home/deal-banners";
 import { NewsletterAppPromo } from "@/components/home/newsletter-app-promo";
 import { ShopByCategory } from "@/components/home/shop-by-category";
-import { ProductCardSkeleton } from "@/components/products/product-card-skeleton";
 import { ProductGrid } from "@/components/products/product-grid";
 import { HeroSlider } from "@/components/slider/hero-slider";
-import { HeroSliderSkeleton } from "@/components/slider/hero-slider-skeleton";
-
-import { Suspense } from "react";
+import { authOptions } from "@/lib/authOptions";
+import { getUserToken } from "@/lib/getUserToken";
+import { getProducts } from "@/services/products/products.services";
+import { ProductCardResponseI } from "@/types/productCard/response";
 
 export default async function Home() {
+  const products: ProductCardResponseI = await getProducts();
+  console.log(products);
+  
   return (
     <>
-      <Suspense fallback={<HeroSliderSkeleton />}>
-        <HeroSlider />
-      </Suspense>
+      <HeroSlider />
       <BenefitsStrip />
       <ShopByCategory />
       <DealBanners />
@@ -29,17 +30,7 @@ export default async function Home() {
         >
           Featured <span className="text-emerald-600">Products</span>
         </h1>
-        <Suspense
-          fallback={
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-5 w-full">
-              {[1, 2, 3, 4, 5, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8].map((i, index) => {
-                return <ProductCardSkeleton key={index} />;
-              })}
-            </div>
-          }
-        >
-          <ProductGrid />
-        </Suspense>
+        <ProductGrid products={products.data} />
       </section>
       <NewsletterAppPromo />
     </>

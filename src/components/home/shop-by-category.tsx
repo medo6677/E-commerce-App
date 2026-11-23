@@ -4,15 +4,8 @@ import { ArrowRight } from "lucide-react";
 
 import { Card } from "@/components/ui/card";
 import { getCategories } from "@/services/home/categories.services";
-import { cacheLife } from "next/cache";
 
 export async function ShopByCategory() {
-  "use cache";
-  cacheLife({
-    stale: 3600,
-    revalidate: 172800,
-    expire: 172800,
-  }); 
   const categories = await getCategories();
 
   return (

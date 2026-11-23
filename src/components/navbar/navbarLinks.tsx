@@ -8,13 +8,32 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-const navigationLinks = [
+
+type NavigationLinkItem = {
+  name: string;
+  href: string;
+};
+
+type NavigationLink = {
+  label: string;
+  href: string;
+  items?: NavigationLinkItem[];
+};
+
+const navigationLinks: NavigationLink[] = [
   { label: "Home", href: "/" },
   { label: "Products", href: "/products" },
   {
     label: "Categories",
     href: "/categories",
-    items: ["item1", "item2", "item3"],
+
+    items: [
+      { name: "All Categories", href: "/categories" },
+      { name: "Electronics", href: "/categories/6439d2d167d9aa4ca970649f" },
+      { name: "Women's Fashion", href: "/categories/6439d58a0049ad0b52b9003f" },
+      { name: "Men's Fashion", href: "/categories/6439d5b90049ad0b52b90048" },
+      { name: "Beauty & Health", href: "/categories/6439d30b67d9aa4ca97064b1" },
+    ],
   },
   { label: "Brands", href: "/brands" },
 ];
@@ -41,18 +60,18 @@ export function NavbarLinks({ onNavigate }: NavbarLinksProps) {
             <NavigationMenuList className="gap-0 p-0 justify-start">
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="h-auto rounded-none  bg-transparent px-0 py-2 text-sm font-medium text-slate-700 shadow-none transition-colors hover:bg-transparent hover:text-emerald-700 focus:bg-transparent focus:text-emerald-700 data-open:bg-transparent data-open:text-emerald-700 data-popup-open:bg-transparent data-popup-open:text-emerald-700">
-                  {label}
+                {label}
                 </NavigationMenuTrigger>
 
                 <NavigationMenuContent className="min-w-48 rounded-xl border border-slate-100 bg-white p-2 shadow-lg">
                   {items?.map((item) => (
                     <NavigationMenuLink
-                      key={item}
-                      href="/categories"
+                    key={item.href}
+                    href={item.href}
                       onClick={onNavigate}
                       className="block rounded-lg px-3 py-2 text-sm text-slate-700 transition-colors hover:bg-emerald-50 hover:text-emerald-700"
                     >
-                      {item}
+                    {item.name}
                     </NavigationMenuLink>
                   ))}
                 </NavigationMenuContent>

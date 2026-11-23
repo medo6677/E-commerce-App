@@ -1,18 +1,18 @@
-import { ProductT } from "@/types/productCard/product";
+import { ProductCardResponseI } from "@/types/productCard/response";
 import { productDetailsT } from "@/types/productDetails/productDetailsT";
-import { cacheLife } from "next/cache";
 
 const PRODUCTS_API_URL = "https://ecommerce.routemisr.com/api/v1/products";
 
-export async function getProducts(): Promise<ProductT[]> {
-
-  const response = await fetch(PRODUCTS_API_URL);
+export async function getProducts(page = 1, limit = 40): Promise<ProductCardResponseI> {
+  const response = await fetch(
+    `${PRODUCTS_API_URL}?page=${page}&limit=${limit}`,
+  );
 
   if (!response.ok) {
     throw new Error(`Failed to fetch products: ${response.status}`);
   }
 
-  const { data } = await response.json();
+  const data = await response.json();
   return data;
 }
 
