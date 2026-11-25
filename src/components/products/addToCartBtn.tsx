@@ -19,22 +19,12 @@ export default function AddToCartBtn({
       if (response.status == "fail") {
         sileo.error({
           title: response.status,
-          fill: "black",
-          styles: {
-            title: "text-white!",
-            description: "text-white/75!",
-          },
           description: response.message,
         });
       } else {
         handleCartItemsCount();
         sileo.success({
           title: response.status,
-          fill: "black",
-          styles: {
-            title: "text-white!",
-            description: "text-white/75!",
-          },
           description: response.message,
         });
       }

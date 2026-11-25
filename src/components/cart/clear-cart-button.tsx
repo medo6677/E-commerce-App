@@ -27,11 +27,6 @@ export function ClearCartButton({
       if (response.status === "fail") {
         sileo.error({
           title: "Cart Clear Failed",
-          fill: "black",
-          styles: {
-            title: "text-white!",
-            description: "text-white/75!",
-          },
           description: response.message,
         });
         return false;
@@ -41,11 +36,6 @@ export function ClearCartButton({
       await handleCartItemsCount();
       sileo.success({
         title: "Cart Cleared",
-        fill: "black",
-        styles: {
-          title: "text-white!",
-          description: "text-white/75!",
-        },
         description: "All items have been removed from your cart.",
       });
       return true;
@@ -53,11 +43,6 @@ export function ClearCartButton({
       console.error("Failed to clear cart:", error);
       sileo.error({
         title: "Cart Clear Failed",
-        fill: "black",
-        styles: {
-          title: "text-white!",
-          description: "text-white/75!",
-        },
         description: "Could not clear your cart. Please try again.",
       });
       return false;

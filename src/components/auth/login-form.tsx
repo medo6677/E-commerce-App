@@ -73,11 +73,6 @@ export function LoginForm() {
       
       sileo.success({
         title: "Login successful",
-        fill: "black",
-        styles: {
-          title: "text-white!",
-          description: "text-white/75!",
-        },
         description: `Welcome back! You have successfully logged in.`,
       });
       setTimeout(() => {
@@ -88,11 +83,6 @@ export function LoginForm() {
 
       sileo.error({
         title: "Failed",
-        fill: "black",
-        styles: {
-          title: "text-white!",
-          description: "text-white/75!",
-        },
         description: response?.error || "Please try again.",
       });
     }

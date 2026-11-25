@@ -1,0 +1,1134 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Free Shipping on Orders 500 EGP
+      - generic [ref=e11]: New Arrivals Daily
+    - generic [ref=e16]:
+      - link "+1 (800) 123-4567" [ref=e17] [cursor=pointer]:
+        - /url: tel:+18001234567
+      - link "support@freshcart.com" [ref=e20] [cursor=pointer]:
+        - /url: mailto:support@freshcart.com
+  - banner [ref=e24]:
+    - generic [ref=e26]:
+      - link "FreshCart home" [ref=e27] [cursor=pointer]:
+        - /url: /
+        - img "FreshCart" [ref=e28]
+      - generic [ref=e29]:
+        - searchbox "Search products, brands and more" [ref=e30]
+        - button "Search" [ref=e31] [cursor=pointer]
+      - navigation "Main navigation" [ref=e32]:
+        - link "Home" [ref=e33] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=e34] [cursor=pointer]:
+          - /url: /products
+        - navigation "Main" [ref=e35]:
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - button "Categories" [ref=e39] [cursor=pointer]
+        - link "Brands" [ref=e42] [cursor=pointer]:
+          - /url: /brands
+      - link "Support 24/7 Help" [ref=e44] [cursor=pointer]:
+        - /url: mailto:support@freshcart.com
+        - generic [ref=e49]:
+          - generic [ref=e50]: Support
+          - text: 24/7 Help
+      - generic [ref=e51]:
+        - button "Wishlist" [ref=e52] [cursor=pointer]
+        - link "Shopping cart" [ref=e53] [cursor=pointer]:
+          - /url: /cart
+        - generic [ref=e59]:
+          - link "Sign In" [ref=e60] [cursor=pointer]:
+            - /url: /login
+          - link "Sign Up" [ref=e64] [cursor=pointer]:
+            - /url: /register
+  - main [ref=e68]:
+    - region "FreshCart offers" [ref=e69]:
+      - generic [ref=e71]:
+        - generic [ref=e76]:
+          - heading "Fresh Products Delivered to your Door" [level=1] [ref=e77]
+          - paragraph [ref=e78]: Get 20% off your first order
+          - generic [ref=e79]:
+            - link "Shop Now" [ref=e80] [cursor=pointer]:
+              - /url: /products
+            - link "View Deals" [ref=e81] [cursor=pointer]:
+              - /url: /products
+        - generic [ref=e86]:
+          - heading "Fresh Picks for a Healthier You" [level=1] [ref=e87]
+          - paragraph [ref=e88]: Discover seasonal fruits and vegetables
+          - generic [ref=e89]:
+            - link "Shop Now" [ref=e90] [cursor=pointer]:
+              - /url: /products
+            - link "View Deals" [ref=e91] [cursor=pointer]:
+              - /url: /products
+        - generic [ref=e96]:
+          - heading "Good Food, Made Easy" [level=1] [ref=e97]
+          - paragraph [ref=e98]: Shop fresh favorites for the whole family
+          - generic [ref=e99]:
+            - link "Shop Now" [ref=e100] [cursor=pointer]:
+              - /url: /products
+            - link "View Deals" [ref=e101] [cursor=pointer]:
+              - /url: /products
+      - button "Previous slide" [ref=e102] [cursor=pointer]
+      - button "Next slide" [ref=e105] [cursor=pointer]
+      - generic [ref=e108]:
+        - button "Go to slide 1" [ref=e109] [cursor=pointer]
+        - button "Go to slide 2" [ref=e110] [cursor=pointer]
+        - button "Go to slide 3" [ref=e111] [cursor=pointer]
+    - region "Shopping benefits" [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e121]:
+          - heading "Free Shipping" [level=2] [ref=e122]
+          - paragraph [ref=e123]: On orders over 500 EGP
+        - generic [ref=e128]:
+          - heading "Secure Payment" [level=2] [ref=e129]
+          - paragraph [ref=e130]: 100% secure transactions
+        - generic [ref=e136]:
+          - heading "Easy Returns" [level=2] [ref=e137]
+          - paragraph [ref=e138]: 14-day return policy
+        - generic [ref=e144]:
+          - heading "24/7 Support" [level=2] [ref=e145]
+          - paragraph [ref=e146]: Dedicated support team
+    - region "Shop By Category" [ref=e147]:
+      - generic [ref=e148]:
+        - heading "Shop By Category" [level=2] [ref=e149]
+        - link "View All Categories" [ref=e150] [cursor=pointer]:
+          - /url: /categories
+      - generic [ref=e153]:
+        - link [ref=e155] [cursor=pointer]:
+          - /url: categories/6439d61c0049ad0b52b90051
+          - heading "Music" [level=3] [ref=e157]
+        - link [ref=e159] [cursor=pointer]:
+          - /url: categories/6439d5b90049ad0b52b90048
+          - heading "Men's Fashion" [level=3] [ref=e161]
+        - link [ref=e163] [cursor=pointer]:
+          - /url: categories/6439d58a0049ad0b52b9003f
+          - heading "Women's Fashion" [level=3] [ref=e165]
+        - link [ref=e167] [cursor=pointer]:
+          - /url: categories/6439d41c67d9aa4ca97064d5
+          - heading "SuperMarket" [level=3] [ref=e169]
+        - link [ref=e171] [cursor=pointer]:
+          - /url: categories/6439d40367d9aa4ca97064cc
+          - heading "Baby & Toys" [level=3] [ref=e173]
+        - link [ref=e175] [cursor=pointer]:
+          - /url: categories/6439d3e067d9aa4ca97064c3
+          - heading "Home" [level=3] [ref=e177]
+        - link [ref=e179] [cursor=pointer]:
+          - /url: categories/6439d3c867d9aa4ca97064ba
+          - heading "Books" [level=3] [ref=e181]
+        - link [ref=e183] [cursor=pointer]:
+          - /url: categories/6439d30b67d9aa4ca97064b1
+          - heading "Beauty & Health" [level=3] [ref=e185]
+        - link [ref=e187] [cursor=pointer]:
+          - /url: categories/6439d2f467d9aa4ca97064a8
+          - heading "Mobiles" [level=3] [ref=e189]
+        - link [ref=e191] [cursor=pointer]:
+          - /url: categories/6439d2d167d9aa4ca970649f
+          - heading "Electronics" [level=3] [ref=e193]
+    - region "Special offers" [ref=e194]:
+      - generic [ref=e198]:
+        - generic [ref=e199]: Deal of the Day
+        - heading "Fresh Organic Fruits" [level=2] [ref=e202]
+        - paragraph [ref=e203]: Get up to 40% off on selected organic fruits
+        - generic [ref=e204]:
+          - generic [ref=e205]: 40% OFF
+          - generic [ref=e206]:
+            - text: "Use code:"
+            - strong [ref=e207]: ORGANIC40
+        - link "Shop Now" [ref=e208] [cursor=pointer]:
+          - /url: /products
+      - generic [ref=e212]:
+        - generic [ref=e213]: New Arrivals
+        - heading "Exotic Vegetables" [level=2] [ref=e217]
+        - paragraph [ref=e218]: Discover our latest collection of premium vegetables
+        - generic [ref=e219]:
+          - generic [ref=e220]: 25% OFF
+          - generic [ref=e221]:
+            - text: "Use code:"
+            - strong [ref=e222]: FRESH25
+        - link "Explore Now" [ref=e223] [cursor=pointer]:
+          - /url: /products
+    - region "Featured Products" [ref=e224]:
+      - heading "Featured Products" [level=1] [ref=e225]
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - link "View Woman Shawl" [ref=e229] [cursor=pointer]:
+              - /url: /products/6428ebc6dc1175abc65ca0b9
+              - img "Woman Shawl" [ref=e230]
+            - generic [ref=e231]:
+              - button "Add to wishlist" [ref=e232] [cursor=pointer]
+              - button "Compare product" [ref=e233] [cursor=pointer]
+              - button "Quick view product" [ref=e234] [cursor=pointer]
+          - generic [ref=e235]:
+            - paragraph [ref=e236]: Women's Fashion
+            - link "Woman Shawl" [ref=e237] [cursor=pointer]:
+              - /url: /products/6428ebc6dc1175abc65ca0b9
+            - generic "4.2 out of 5 stars, 59 reviews" [ref=e238]:
+              - generic [ref=e250]: "4.2"
+              - generic [ref=e251]: (59)
+          - generic [ref=e252]:
+            - generic [ref=e253]: 149 EGP
+            - button "Add Woman Shawl to cart" [ref=e255] [cursor=pointer]
+        - generic [ref=e256]:
+          - generic [ref=e257]:
+            - link "View Woman Shawl" [ref=e258] [cursor=pointer]:
+              - /url: /products/6428eb43dc1175abc65ca0b3
+              - img "Woman Shawl" [ref=e259]
+            - generic [ref=e260]:
+              - button "Add to wishlist" [ref=e261] [cursor=pointer]
+              - button "Compare product" [ref=e262] [cursor=pointer]
+              - button "Quick view product" [ref=e263] [cursor=pointer]
+          - generic [ref=e264]:
+            - paragraph [ref=e265]: Women's Fashion
+            - link "Woman Shawl" [ref=e266] [cursor=pointer]:
+              - /url: /products/6428eb43dc1175abc65ca0b3
+            - generic "4 out of 5 stars, 54 reviews" [ref=e267]:
+              - generic [ref=e279]: "4"
+              - generic [ref=e280]: (54)
+          - generic [ref=e281]:
+            - generic [ref=e282]: 149 EGP
+            - button "Add Woman Shawl to cart" [ref=e284] [cursor=pointer]
+        - generic [ref=e285]:
+          - generic [ref=e286]:
+            - link "View Woman Shawl" [ref=e287] [cursor=pointer]:
+              - /url: /products/6428ead5dc1175abc65ca0ad
+              - img "Woman Shawl" [ref=e288]
+            - generic [ref=e289]:
+              - button "Add to wishlist" [ref=e290] [cursor=pointer]
+              - button "Compare product" [ref=e291] [cursor=pointer]
+              - button "Quick view product" [ref=e292] [cursor=pointer]
+          - generic [ref=e293]:
+            - paragraph [ref=e294]: Women's Fashion
+            - link "Woman Shawl" [ref=e295] [cursor=pointer]:
+              - /url: /products/6428ead5dc1175abc65ca0ad
+            - generic "4.1 out of 5 stars, 39 reviews" [ref=e296]:
+              - generic [ref=e308]: "4.1"
+              - generic [ref=e309]: (39)
+          - generic [ref=e310]:
+            - generic [ref=e311]: 149 EGP
+            - button "Add Woman Shawl to cart" [ref=e313] [cursor=pointer]
+        - generic [ref=e314]:
+          - generic [ref=e315]:
+            - link "View Woman Shawl" [ref=e316] [cursor=pointer]:
+              - /url: /products/6428e997dc1175abc65ca0a1
+              - img "Woman Shawl" [ref=e317]
+            - generic [ref=e318]:
+              - button "Add to wishlist" [ref=e319] [cursor=pointer]
+              - button "Compare product" [ref=e320] [cursor=pointer]
+              - button "Quick view product" [ref=e321] [cursor=pointer]
+          - generic [ref=e322]:
+            - paragraph [ref=e323]: Women's Fashion
+            - link "Woman Shawl" [ref=e324] [cursor=pointer]:
+              - /url: /products/6428e997dc1175abc65ca0a1
+            - generic "4 out of 5 stars, 27 reviews" [ref=e325]:
+              - generic [ref=e337]: "4"
+              - generic [ref=e338]: (27)
+          - generic [ref=e339]:
+            - generic [ref=e340]: 149 EGP
+            - button "Add Woman Shawl to cart" [ref=e342] [cursor=pointer]
+        - generic [ref=e343]:
+          - generic [ref=e344]:
+            - link "View Woman Shawl" [ref=e345] [cursor=pointer]:
+              - /url: /products/6428e884dc1175abc65ca096
+              - img "Woman Shawl" [ref=e346]
+            - generic [ref=e347]:
+              - button "Add to wishlist" [ref=e348] [cursor=pointer]
+              - button "Compare product" [ref=e349] [cursor=pointer]
+              - button "Quick view product" [ref=e350] [cursor=pointer]
+          - generic [ref=e351]:
+            - paragraph [ref=e352]: Women's Fashion
+            - link "Woman Shawl" [ref=e353] [cursor=pointer]:
+              - /url: /products/6428e884dc1175abc65ca096
+            - generic "4.7 out of 5 stars, 15 reviews" [ref=e354]:
+              - generic [ref=e366]: "4.7"
+              - generic [ref=e367]: (15)
+          - generic [ref=e368]:
+            - generic [ref=e369]: 349 EGP
+            - button "Add Woman Shawl to cart" [ref=e371] [cursor=pointer]
+        - generic [ref=e372]:
+          - generic [ref=e373]:
+            - link "View Woman Bordeaux Long Sleeve Blouse BORDEAUX" [ref=e374] [cursor=pointer]:
+              - /url: /products/6428e7ecdc1175abc65ca090
+              - img "Woman Bordeaux Long Sleeve Blouse BORDEAUX" [ref=e375]
+            - generic [ref=e376]: "- 30%"
+            - generic [ref=e377]:
+              - button "Add to wishlist" [ref=e378] [cursor=pointer]
+              - button "Compare product" [ref=e379] [cursor=pointer]
+              - button "Quick view product" [ref=e380] [cursor=pointer]
+          - generic [ref=e381]:
+            - paragraph [ref=e382]: Women's Fashion
+            - link "Woman Bordeaux Long Sleeve Blouse BORDEAUX" [ref=e383] [cursor=pointer]:
+              - /url: /products/6428e7ecdc1175abc65ca090
+            - generic "4.2 out of 5 stars, 18 reviews" [ref=e384]:
+              - generic [ref=e396]: "4.2"
+              - generic [ref=e397]: (18)
+          - generic [ref=e398]:
+            - generic [ref=e399]:
+              - generic [ref=e400]: 499 EGP
+              - generic [ref=e401]: 349 EGP
+            - button "Add Woman Bordeaux Long Sleeve Blouse BORDEAUX to cart" [ref=e402] [cursor=pointer]
+        - generic [ref=e403]:
+          - generic [ref=e404]:
+            - link "View Woman Brown Long Sleeve Tunic LT.CAMEL" [ref=e405] [cursor=pointer]:
+              - /url: /products/6428e778dc1175abc65ca08a
+              - img "Woman Brown Long Sleeve Tunic LT.CAMEL" [ref=e406]
+            - generic [ref=e407]: "- 28%"
+            - generic [ref=e408]:
+              - button "Add to wishlist" [ref=e409] [cursor=pointer]
+              - button "Compare product" [ref=e410] [cursor=pointer]
+              - button "Quick view product" [ref=e411] [cursor=pointer]
+          - generic [ref=e412]:
+            - paragraph [ref=e413]: Women's Fashion
+            - link "Woman Brown Long Sleeve Tunic LT.CAMEL" [ref=e414] [cursor=pointer]:
+              - /url: /products/6428e778dc1175abc65ca08a
+            - generic "3.9 out of 5 stars, 25 reviews" [ref=e415]:
+              - generic [ref=e427]: "3.9"
+              - generic [ref=e428]: (25)
+          - generic [ref=e429]:
+            - generic [ref=e430]:
+              - generic [ref=e431]: 499 EGP
+              - generic [ref=e432]: 359 EGP
+            - button "Add Woman Brown Long Sleeve Tunic LT.CAMEL to cart" [ref=e433] [cursor=pointer]
+        - generic [ref=e434]:
+          - generic [ref=e435]:
+            - link "View Woman Standart Fit Knitted Cardigan" [ref=e436] [cursor=pointer]:
+              - /url: /products/6428e5e6dc1175abc65ca084
+              - img "Woman Standart Fit Knitted Cardigan" [ref=e437]
+            - generic [ref=e438]: "- 10%"
+            - generic [ref=e439]:
+              - button "Add to wishlist" [ref=e440] [cursor=pointer]
+              - button "Compare product" [ref=e441] [cursor=pointer]
+              - button "Quick view product" [ref=e442] [cursor=pointer]
+          - generic [ref=e443]:
+            - paragraph [ref=e444]: Women's Fashion
+            - link "Woman Standart Fit Knitted Cardigan" [ref=e445] [cursor=pointer]:
+              - /url: /products/6428e5e6dc1175abc65ca084
+            - generic "4.4 out of 5 stars, 22 reviews" [ref=e446]:
+              - generic [ref=e458]: "4.4"
+              - generic [ref=e459]: (22)
+          - generic [ref=e460]:
+            - generic [ref=e461]:
+              - generic [ref=e462]: 499 EGP
+              - generic [ref=e463]: 449 EGP
+            - button "Add Woman Standart Fit Knitted Cardigan to cart" [ref=e464] [cursor=pointer]
+        - generic [ref=e465]:
+          - generic [ref=e466]:
+            - link "View Relaxed Fit Knitted Joggers Lilac" [ref=e467] [cursor=pointer]:
+              - /url: /products/6428e509dc1175abc65ca07e
+              - img "Relaxed Fit Knitted Joggers Lilac" [ref=e468]
+            - generic [ref=e469]: "- 62%"
+            - generic [ref=e470]:
+              - button "Add to wishlist" [ref=e471] [cursor=pointer]
+              - button "Compare product" [ref=e472] [cursor=pointer]
+              - button "Quick view product" [ref=e473] [cursor=pointer]
+          - generic [ref=e474]:
+            - paragraph [ref=e475]: Women's Fashion
+            - link "Relaxed Fit Knitted Joggers Lilac" [ref=e476] [cursor=pointer]:
+              - /url: /products/6428e509dc1175abc65ca07e
+            - generic "4 out of 5 stars, 12 reviews" [ref=e477]:
+              - generic [ref=e489]: "4"
+              - generic [ref=e490]: (12)
+          - generic [ref=e491]:
+            - generic [ref=e492]:
+              - generic [ref=e493]: 499 EGP
+              - generic [ref=e494]: 189 EGP
+            - button "Add Relaxed Fit Knitted Joggers Lilac to cart" [ref=e495] [cursor=pointer]
+        - generic [ref=e496]:
+          - generic [ref=e497]:
+            - link "View Woman Socks" [ref=e498] [cursor=pointer]:
+              - /url: /products/6428e479dc1175abc65ca078
+              - img "Woman Socks" [ref=e499]
+            - generic [ref=e500]:
+              - button "Add to wishlist" [ref=e501] [cursor=pointer]
+              - button "Compare product" [ref=e502] [cursor=pointer]
+              - button "Quick view product" [ref=e503] [cursor=pointer]
+          - generic [ref=e504]:
+            - paragraph [ref=e505]: Women's Fashion
+            - link "Woman Socks" [ref=e506] [cursor=pointer]:
+              - /url: /products/6428e479dc1175abc65ca078
+            - generic "4.1 out of 5 stars, 13 reviews" [ref=e507]:
+              - generic [ref=e519]: "4.1"
+              - generic [ref=e520]: (13)
+          - generic [ref=e521]:
+            - generic [ref=e522]: 199 EGP
+            - button "Add Woman Socks to cart" [ref=e524] [cursor=pointer]
+        - generic [ref=e525]:
+          - generic [ref=e526]:
+            - link "View Woman Karma Socks Multicolour" [ref=e527] [cursor=pointer]:
+              - /url: /products/6428e319dc1175abc65ca06d
+              - img "Woman Karma Socks Multicolour" [ref=e528]
+            - generic [ref=e529]:
+              - button "Add to wishlist" [ref=e530] [cursor=pointer]
+              - button "Compare product" [ref=e531] [cursor=pointer]
+              - button "Quick view product" [ref=e532] [cursor=pointer]
+          - generic [ref=e533]:
+            - paragraph [ref=e534]: Women's Fashion
+            - link "Woman Karma Socks Multicolour" [ref=e535] [cursor=pointer]:
+              - /url: /products/6428e319dc1175abc65ca06d
+            - generic "3.4 out of 5 stars, 11 reviews" [ref=e536]:
+              - generic [ref=e548]: "3.4"
+              - generic [ref=e549]: (11)
+          - generic [ref=e550]:
+            - generic [ref=e551]: 199 EGP
+            - button "Add Woman Karma Socks Multicolour to cart" [ref=e553] [cursor=pointer]
+        - generic [ref=e554]:
+          - generic [ref=e555]:
+            - link "View Logo T-Shirt Green" [ref=e556] [cursor=pointer]:
+              - /url: /products/6428dfa0dc1175abc65ca067
+              - img "Logo T-Shirt Green" [ref=e557]
+            - generic [ref=e558]: "- 49%"
+            - generic [ref=e559]:
+              - button "Add to wishlist" [ref=e560] [cursor=pointer]
+              - button "Compare product" [ref=e561] [cursor=pointer]
+              - button "Quick view product" [ref=e562] [cursor=pointer]
+          - generic [ref=e563]:
+            - paragraph [ref=e564]: Men's Fashion
+            - link "Logo T-Shirt Green" [ref=e565] [cursor=pointer]:
+              - /url: /products/6428dfa0dc1175abc65ca067
+            - generic "3.6 out of 5 stars, 21 reviews" [ref=e566]:
+              - generic [ref=e578]: "3.6"
+              - generic [ref=e579]: (21)
+          - generic [ref=e580]:
+            - generic [ref=e581]:
+              - generic [ref=e582]: 744 EGP
+              - generic [ref=e583]: 379 EGP
+            - button "Add Logo T-Shirt Green to cart" [ref=e584] [cursor=pointer]
+        - generic [ref=e585]:
+          - generic [ref=e586]:
+            - link "View Orca Leather Boots Anthracite" [ref=e587] [cursor=pointer]:
+              - /url: /products/6428def9dc1175abc65ca061
+              - img "Orca Leather Boots Anthracite" [ref=e588]
+            - generic [ref=e589]: "- 37%"
+            - generic [ref=e590]:
+              - button "Add to wishlist" [ref=e591] [cursor=pointer]
+              - button "Compare product" [ref=e592] [cursor=pointer]
+              - button "Quick view product" [ref=e593] [cursor=pointer]
+          - generic [ref=e594]:
+            - paragraph [ref=e595]: Men's Fashion
+            - link "Orca Leather Boots Anthracite" [ref=e596] [cursor=pointer]:
+              - /url: /products/6428def9dc1175abc65ca061
+            - generic "4.2 out of 5 stars, 19 reviews" [ref=e597]:
+              - generic [ref=e609]: "4.2"
+              - generic [ref=e610]: (19)
+          - generic [ref=e611]:
+            - generic [ref=e612]:
+              - generic [ref=e613]: 4829 EGP
+              - generic [ref=e614]: 3064 EGP
+            - button "Add Orca Leather Boots Anthracite to cart" [ref=e615] [cursor=pointer]
+        - generic [ref=e616]:
+          - generic [ref=e617]:
+            - link "View Softride Enzo NXT CASTLEROCK-High Risk R" [ref=e618] [cursor=pointer]:
+              - /url: /products/6428de2adc1175abc65ca05b
+              - img "Softride Enzo NXT CASTLEROCK-High Risk R" [ref=e619]
+            - generic [ref=e620]:
+              - button "Add to wishlist" [ref=e621] [cursor=pointer]
+              - button "Compare product" [ref=e622] [cursor=pointer]
+              - button "Quick view product" [ref=e623] [cursor=pointer]
+          - generic [ref=e624]:
+            - paragraph [ref=e625]: Men's Fashion
+            - link "Softride Enzo NXT CASTLEROCK-High Risk R" [ref=e626] [cursor=pointer]:
+              - /url: /products/6428de2adc1175abc65ca05b
+            - generic "4.2 out of 5 stars, 14 reviews" [ref=e627]:
+              - generic [ref=e639]: "4.2"
+              - generic [ref=e640]: (14)
+          - generic [ref=e641]:
+            - generic [ref=e642]: 2999 EGP
+            - button "Add Softride Enzo NXT CASTLEROCK-High Risk R to cart" [ref=e644] [cursor=pointer]
+        - generic [ref=e645]:
+          - generic [ref=e646]:
+            - link "View ESS Big Logo Hoodie TR Puma Black" [ref=e647] [cursor=pointer]:
+              - /url: /products/6428dd2edc1175abc65ca055
+              - img "ESS Big Logo Hoodie TR Puma Black" [ref=e648]
+            - generic [ref=e649]: "- 2%"
+            - generic [ref=e650]:
+              - button "Add to wishlist" [ref=e651] [cursor=pointer]
+              - button "Compare product" [ref=e652] [cursor=pointer]
+              - button "Quick view product" [ref=e653] [cursor=pointer]
+          - generic [ref=e654]:
+            - paragraph [ref=e655]: Men's Fashion
+            - link "ESS Big Logo Hoodie TR Puma Black" [ref=e656] [cursor=pointer]:
+              - /url: /products/6428dd2edc1175abc65ca055
+            - generic "4.3 out of 5 stars, 11 reviews" [ref=e657]:
+              - generic [ref=e669]: "4.3"
+              - generic [ref=e670]: (11)
+          - generic [ref=e671]:
+            - generic [ref=e672]:
+              - generic [ref=e673]: 2649 EGP
+              - generic [ref=e674]: 2599 EGP
+            - button "Add ESS Big Logo Hoodie TR Puma Black to cart" [ref=e675] [cursor=pointer]
+        - generic [ref=e676]:
+          - generic [ref=e677]:
+            - link "View Sportswear Club Graphic Hoodie Blue" [ref=e678] [cursor=pointer]:
+              - /url: /products/6428d132dc1175abc65ca04f
+              - img "Sportswear Club Graphic Hoodie Blue" [ref=e679]
+            - generic [ref=e680]: "- 40%"
+            - generic [ref=e681]:
+              - button "Add to wishlist" [ref=e682] [cursor=pointer]
+              - button "Compare product" [ref=e683] [cursor=pointer]
+              - button "Quick view product" [ref=e684] [cursor=pointer]
+          - generic [ref=e685]:
+            - paragraph [ref=e686]: Men's Fashion
+            - link "Sportswear Club Graphic Hoodie Blue" [ref=e687] [cursor=pointer]:
+              - /url: /products/6428d132dc1175abc65ca04f
+            - generic "4.2 out of 5 stars, 5 reviews" [ref=e688]:
+              - generic [ref=e700]: "4.2"
+              - generic [ref=e701]: (5)
+          - generic [ref=e702]:
+            - generic [ref=e703]:
+              - generic [ref=e704]: 2449 EGP
+              - generic [ref=e705]: 1474 EGP
+            - button "Add Sportswear Club Graphic Hoodie Blue to cart" [ref=e706] [cursor=pointer]
+        - generic [ref=e707]:
+          - generic [ref=e708]:
+            - link "View NSW Everyday Essentials No-Show Socks (Pack of 3) White/Black" [ref=e709] [cursor=pointer]:
+              - /url: /products/6428cf07dc1175abc65ca049
+              - img "NSW Everyday Essentials No-Show Socks (Pack of 3) White/Black" [ref=e710]
+            - generic [ref=e711]: "- 41%"
+            - generic [ref=e712]:
+              - button "Add to wishlist" [ref=e713] [cursor=pointer]
+              - button "Compare product" [ref=e714] [cursor=pointer]
+              - button "Quick view product" [ref=e715] [cursor=pointer]
+          - generic [ref=e716]:
+            - paragraph [ref=e717]: Men's Fashion
+            - link "NSW Everyday Essentials No-Show Socks (Pack of 3) White/Black" [ref=e718] [cursor=pointer]:
+              - /url: /products/6428cf07dc1175abc65ca049
+            - generic "4.1 out of 5 stars, 8 reviews" [ref=e719]:
+              - generic [ref=e731]: "4.1"
+              - generic [ref=e732]: (8)
+          - generic [ref=e733]:
+            - generic [ref=e734]:
+              - generic [ref=e735]: 1079 EGP
+              - generic [ref=e736]: 634 EGP
+            - button "Add NSW Everyday Essentials No-Show Socks (Pack of 3) White/Black to cart" [ref=e737] [cursor=pointer]
+        - generic [ref=e738]:
+          - generic [ref=e739]:
+            - link "View Court Tennis Track Pants Black" [ref=e740] [cursor=pointer]:
+              - /url: /products/6428ce55dc1175abc65ca043
+              - img "Court Tennis Track Pants Black" [ref=e741]
+            - generic [ref=e742]: "- 30%"
+            - generic [ref=e743]:
+              - button "Add to wishlist" [ref=e744] [cursor=pointer]
+              - button "Compare product" [ref=e745] [cursor=pointer]
+              - button "Quick view product" [ref=e746] [cursor=pointer]
+          - generic [ref=e747]:
+            - paragraph [ref=e748]: Men's Fashion
+            - link "Court Tennis Track Pants Black" [ref=e749] [cursor=pointer]:
+              - /url: /products/6428ce55dc1175abc65ca043
+            - generic "4.3 out of 5 stars, 7 reviews" [ref=e750]:
+              - generic [ref=e762]: "4.3"
+              - generic [ref=e763]: (7)
+          - generic [ref=e764]:
+            - generic [ref=e765]:
+              - generic [ref=e766]: 3159 EGP
+              - generic [ref=e767]: 2199 EGP
+            - button "Add Court Tennis Track Pants Black to cart" [ref=e768] [cursor=pointer]
+        - generic [ref=e769]:
+          - generic [ref=e770]:
+            - link "View React Live Sneakers Black/White-Dk Smoke Grey" [ref=e771] [cursor=pointer]:
+              - /url: /products/6428cd70dc1175abc65ca03d
+              - img "React Live Sneakers Black/White-Dk Smoke Grey" [ref=e772]
+            - generic [ref=e773]: "- 19%"
+            - generic [ref=e774]:
+              - button "Add to wishlist" [ref=e775] [cursor=pointer]
+              - button "Compare product" [ref=e776] [cursor=pointer]
+              - button "Quick view product" [ref=e777] [cursor=pointer]
+          - generic [ref=e778]:
+            - paragraph [ref=e779]: Men's Fashion
+            - link "React Live Sneakers Black/White-Dk Smoke Grey" [ref=e780] [cursor=pointer]:
+              - /url: /products/6428cd70dc1175abc65ca03d
+            - generic "4.1 out of 5 stars, 11 reviews" [ref=e781]:
+              - generic [ref=e793]: "4.1"
+              - generic [ref=e794]: (11)
+          - generic [ref=e795]:
+            - generic [ref=e796]:
+              - generic [ref=e797]: 4639 EGP
+              - generic [ref=e798]: 3759 EGP
+            - button "Add React Live Sneakers Black/White-Dk Smoke Grey to cart" [ref=e799] [cursor=pointer]
+        - generic [ref=e800]:
+          - generic [ref=e801]:
+            - link "View Essentials Embroidered Linear Logo T-Shirt Navy" [ref=e802] [cursor=pointer]:
+              - /url: /products/6428cbd5dc1175abc65ca037
+              - img "Essentials Embroidered Linear Logo T-Shirt Navy" [ref=e803]
+            - generic [ref=e804]: "- 33%"
+            - generic [ref=e805]:
+              - button "Add to wishlist" [ref=e806] [cursor=pointer]
+              - button "Compare product" [ref=e807] [cursor=pointer]
+              - button "Quick view product" [ref=e808] [cursor=pointer]
+          - generic [ref=e809]:
+            - paragraph [ref=e810]: Men's Fashion
+            - link "Essentials Embroidered Linear Logo T-Shirt Navy" [ref=e811] [cursor=pointer]:
+              - /url: /products/6428cbd5dc1175abc65ca037
+            - generic "4.2 out of 5 stars, 6 reviews" [ref=e812]:
+              - generic [ref=e824]: "4.2"
+              - generic [ref=e825]: (6)
+          - generic [ref=e826]:
+            - generic [ref=e827]:
+              - generic [ref=e828]: 749 EGP
+              - generic [ref=e829]: 504 EGP
+            - button "Add Essentials Embroidered Linear Logo T-Shirt Navy to cart" [ref=e830] [cursor=pointer]
+        - generic [ref=e831]:
+          - generic [ref=e832]:
+            - link "View Salah Track Top" [ref=e833] [cursor=pointer]:
+              - /url: /products/6428cb19dc1175abc65ca031
+              - img "Salah Track Top" [ref=e834]
+            - generic [ref=e835]: "- 37%"
+            - generic [ref=e836]:
+              - button "Add to wishlist" [ref=e837] [cursor=pointer]
+              - button "Compare product" [ref=e838] [cursor=pointer]
+              - button "Quick view product" [ref=e839] [cursor=pointer]
+          - generic [ref=e840]:
+            - paragraph [ref=e841]: Men's Fashion
+            - link "Salah Track Top" [ref=e842] [cursor=pointer]:
+              - /url: /products/6428cb19dc1175abc65ca031
+            - generic "5 out of 5 stars, 4 reviews" [ref=e843]:
+              - generic [ref=e855]: "5"
+              - generic [ref=e856]: (4)
+          - generic [ref=e857]:
+            - generic [ref=e858]:
+              - generic [ref=e859]: 1749 EGP
+              - generic [ref=e860]: 1094 EGP
+            - button "Add Salah Track Top to cart" [ref=e861] [cursor=pointer]
+        - generic [ref=e862]:
+          - generic [ref=e863]:
+            - link "View Adicolor Classics Beckenbauer Primeblue Track Top" [ref=e864] [cursor=pointer]:
+              - /url: /products/6428ca68dc1175abc65ca02b
+              - img "Adicolor Classics Beckenbauer Primeblue Track Top" [ref=e865]
+            - generic [ref=e866]:
+              - button "Add to wishlist" [ref=e867] [cursor=pointer]
+              - button "Compare product" [ref=e868] [cursor=pointer]
+              - button "Quick view product" [ref=e869] [cursor=pointer]
+          - generic [ref=e870]:
+            - paragraph [ref=e871]: Men's Fashion
+            - link "Adicolor Classics Beckenbauer Primeblue Track Top" [ref=e872] [cursor=pointer]:
+              - /url: /products/6428ca68dc1175abc65ca02b
+            - generic "4.8 out of 5 stars, 4 reviews" [ref=e873]:
+              - generic [ref=e885]: "4.8"
+              - generic [ref=e886]: (4)
+          - generic [ref=e887]:
+            - generic [ref=e888]: 2379 EGP
+            - button "Add Adicolor Classics Beckenbauer Primeblue Track Top to cart" [ref=e890] [cursor=pointer]
+        - generic [ref=e891]:
+          - generic [ref=e892]:
+            - link "View Duramo 10 Running Shoes" [ref=e893] [cursor=pointer]:
+              - /url: /products/6428c962dc1175abc65ca025
+              - img "Duramo 10 Running Shoes" [ref=e894]
+            - generic [ref=e895]: "- 34%"
+            - generic [ref=e896]:
+              - button "Add to wishlist" [ref=e897] [cursor=pointer]
+              - button "Compare product" [ref=e898] [cursor=pointer]
+              - button "Quick view product" [ref=e899] [cursor=pointer]
+          - generic [ref=e900]:
+            - paragraph [ref=e901]: Men's Fashion
+            - link "Duramo 10 Running Shoes" [ref=e902] [cursor=pointer]:
+              - /url: /products/6428c962dc1175abc65ca025
+            - generic "3.7 out of 5 stars, 7 reviews" [ref=e903]:
+              - generic [ref=e915]: "3.7"
+              - generic [ref=e916]: (7)
+          - generic [ref=e917]:
+            - generic [ref=e918]:
+              - generic [ref=e919]: 1999 EGP
+              - generic [ref=e920]: 1314 EGP
+            - button "Add Duramo 10 Running Shoes to cart" [ref=e921] [cursor=pointer]
+        - generic [ref=e922]:
+          - generic [ref=e923]:
+            - link "View Hoops 3.0 Low Classic Vintage Shoes" [ref=e924] [cursor=pointer]:
+              - /url: /products/6428c6a9dc1175abc65ca01f
+              - img "Hoops 3.0 Low Classic Vintage Shoes" [ref=e925]
+            - generic [ref=e926]:
+              - button "Add to wishlist" [ref=e927] [cursor=pointer]
+              - button "Compare product" [ref=e928] [cursor=pointer]
+              - button "Quick view product" [ref=e929] [cursor=pointer]
+          - generic [ref=e930]:
+            - paragraph [ref=e931]: Men's Fashion
+            - link "Hoops 3.0 Low Classic Vintage Shoes" [ref=e932] [cursor=pointer]:
+              - /url: /products/6428c6a9dc1175abc65ca01f
+            - generic "4.3 out of 5 stars, 3 reviews" [ref=e933]:
+              - generic [ref=e945]: "4.3"
+              - generic [ref=e946]: (3)
+          - generic [ref=e947]:
+            - generic [ref=e948]: 1629 EGP
+            - button "Add Hoops 3.0 Low Classic Vintage Shoes to cart" [ref=e950] [cursor=pointer]
+        - generic [ref=e951]:
+          - generic [ref=e952]:
+            - link "View Galaxy 6 Running Shoes" [ref=e953] [cursor=pointer]:
+              - /url: /products/6428c5b7dc1175abc65ca019
+              - img "Galaxy 6 Running Shoes" [ref=e954]
+            - generic [ref=e955]:
+              - button "Add to wishlist" [ref=e956] [cursor=pointer]
+              - button "Compare product" [ref=e957] [cursor=pointer]
+              - button "Quick view product" [ref=e958] [cursor=pointer]
+          - generic [ref=e959]:
+            - paragraph [ref=e960]: Men's Fashion
+            - link "Galaxy 6 Running Shoes" [ref=e961] [cursor=pointer]:
+              - /url: /products/6428c5b7dc1175abc65ca019
+            - generic "0 out of 5 stars, 0 reviews" [ref=e962]:
+              - generic [ref=e974]: "0"
+              - generic [ref=e975]: (0)
+          - generic [ref=e976]:
+            - generic [ref=e977]: 1629 EGP
+            - button "Add Galaxy 6 Running Shoes to cart" [ref=e979] [cursor=pointer]
+        - generic [ref=e980]:
+          - generic [ref=e981]:
+            - link "View Slim Fit Long Sleeve Dobby Men's Shirt" [ref=e982] [cursor=pointer]:
+              - /url: /products/6428c3b8dc1175abc65ca00e
+              - img "Slim Fit Long Sleeve Dobby Men's Shirt" [ref=e983]
+            - generic [ref=e984]: "- 38%"
+            - generic [ref=e985]:
+              - button "Add to wishlist" [ref=e986] [cursor=pointer]
+              - button "Compare product" [ref=e987] [cursor=pointer]
+              - button "Quick view product" [ref=e988] [cursor=pointer]
+          - generic [ref=e989]:
+            - paragraph [ref=e990]: Men's Fashion
+            - link "Slim Fit Long Sleeve Dobby Men's Shirt" [ref=e991] [cursor=pointer]:
+              - /url: /products/6428c3b8dc1175abc65ca00e
+            - generic "4 out of 5 stars, 7 reviews" [ref=e992]:
+              - generic [ref=e1004]: "4"
+              - generic [ref=e1005]: (7)
+          - generic [ref=e1006]:
+            - generic [ref=e1007]:
+              - generic [ref=e1008]: 549 EGP
+              - generic [ref=e1009]: 343 EGP
+            - button "Add Slim Fit Long Sleeve Dobby Men's Shirt to cart" [ref=e1010] [cursor=pointer]
+        - generic [ref=e1011]:
+          - generic [ref=e1012]:
+            - link "View Crew Neck Long Sleeve Men's Knitwear Sweater" [ref=e1013] [cursor=pointer]:
+              - /url: /products/6428c320dc1175abc65ca008
+              - img "Crew Neck Long Sleeve Men's Knitwear Sweater" [ref=e1014]
+            - generic [ref=e1015]: "- 27%"
+            - generic [ref=e1016]:
+              - button "Add to wishlist" [ref=e1017] [cursor=pointer]
+              - button "Compare product" [ref=e1018] [cursor=pointer]
+              - button "Quick view product" [ref=e1019] [cursor=pointer]
+          - generic [ref=e1020]:
+            - paragraph [ref=e1021]: Men's Fashion
+            - link "Crew Neck Long Sleeve Men's Knitwear Sweater" [ref=e1022] [cursor=pointer]:
+              - /url: /products/6428c320dc1175abc65ca008
+            - generic "4.3 out of 5 stars, 3 reviews" [ref=e1023]:
+              - generic [ref=e1035]: "4.3"
+              - generic [ref=e1036]: (3)
+          - generic [ref=e1037]:
+            - generic [ref=e1038]:
+              - generic [ref=e1039]: 449 EGP
+              - generic [ref=e1040]: 330 EGP
+            - button "Add Crew Neck Long Sleeve Men's Knitwear Sweater to cart" [ref=e1041] [cursor=pointer]
+        - generic [ref=e1042]:
+          - generic [ref=e1043]:
+            - link "View Crew Neck Long Sleeve Striped Men's Tricot Sweater" [ref=e1044] [cursor=pointer]:
+              - /url: /products/6428c0fedc1175abc65c9ffd
+              - img "Crew Neck Long Sleeve Striped Men's Tricot Sweater" [ref=e1045]
+            - generic [ref=e1046]: "- 10%"
+            - generic [ref=e1047]:
+              - button "Add to wishlist" [ref=e1048] [cursor=pointer]
+              - button "Compare product" [ref=e1049] [cursor=pointer]
+              - button "Quick view product" [ref=e1050] [cursor=pointer]
+          - generic [ref=e1051]:
+            - paragraph [ref=e1052]: Men's Fashion
+            - link "Crew Neck Long Sleeve Striped Men's Tricot Sweater" [ref=e1053] [cursor=pointer]:
+              - /url: /products/6428c0fedc1175abc65c9ffd
+            - generic "5 out of 5 stars, 1 reviews" [ref=e1054]:
+              - generic [ref=e1066]: "5"
+              - generic [ref=e1067]: (1)
+          - generic [ref=e1068]:
+            - generic [ref=e1069]:
+              - generic [ref=e1070]: 599 EGP
+              - generic [ref=e1071]: 539 EGP
+            - button "Add Crew Neck Long Sleeve Striped Men's Tricot Sweater to cart" [ref=e1072] [cursor=pointer]
+        - generic [ref=e1073]:
+          - generic [ref=e1074]:
+            - link "View Crew Neck Long Sleeve Men's Tricot Sweater with Color Block" [ref=e1075] [cursor=pointer]:
+              - /url: /products/6428c042dc1175abc65c9ff7
+              - img "Crew Neck Long Sleeve Men's Tricot Sweater with Color Block" [ref=e1076]
+            - generic [ref=e1077]: "- 42%"
+            - generic [ref=e1078]:
+              - button "Add to wishlist" [ref=e1079] [cursor=pointer]
+              - button "Compare product" [ref=e1080] [cursor=pointer]
+              - button "Quick view product" [ref=e1081] [cursor=pointer]
+          - generic [ref=e1082]:
+            - paragraph [ref=e1083]: Men's Fashion
+            - link "Crew Neck Long Sleeve Men's Tricot Sweater with Color Block" [ref=e1084] [cursor=pointer]:
+              - /url: /products/6428c042dc1175abc65c9ff7
+            - generic "5 out of 5 stars, 2 reviews" [ref=e1085]:
+              - generic [ref=e1097]: "5"
+              - generic [ref=e1098]: (2)
+          - generic [ref=e1099]:
+            - generic [ref=e1100]:
+              - generic [ref=e1101]: 549 EGP
+              - generic [ref=e1102]: 321 EGP
+            - button "Add Crew Neck Long Sleeve Men's Tricot Sweater with Color Block to cart" [ref=e1103] [cursor=pointer]
+        - generic [ref=e1104]:
+          - generic [ref=e1105]:
+            - link "View Polo Collar Short Sleeve Color Block Men's Knitwear Sweater" [ref=e1106] [cursor=pointer]:
+              - /url: /products/6428bf40dc1175abc65c9ff1
+              - img "Polo Collar Short Sleeve Color Block Men's Knitwear Sweater" [ref=e1107]
+            - generic [ref=e1108]:
+              - button "Add to wishlist" [ref=e1109] [cursor=pointer]
+              - button "Compare product" [ref=e1110] [cursor=pointer]
+              - button "Quick view product" [ref=e1111] [cursor=pointer]
+          - generic [ref=e1112]:
+            - paragraph [ref=e1113]: Men's Fashion
+            - link "Polo Collar Short Sleeve Color Block Men's Knitwear Sweater" [ref=e1114] [cursor=pointer]:
+              - /url: /products/6428bf40dc1175abc65c9ff1
+            - generic "3 out of 5 stars, 2 reviews" [ref=e1115]:
+              - generic [ref=e1127]: "3"
+              - generic [ref=e1128]: (2)
+          - generic [ref=e1129]:
+            - generic [ref=e1130]: 349 EGP
+            - button "Add Polo Collar Short Sleeve Color Block Men's Knitwear Sweater to cart" [ref=e1132] [cursor=pointer]
+        - generic [ref=e1133]:
+          - generic [ref=e1134]:
+            - link "View Crew Neck Long Sleeve Striped Men's Knitwear Sweater" [ref=e1135] [cursor=pointer]:
+              - /url: /products/6428be2bdc1175abc65c9fe6
+              - img "Crew Neck Long Sleeve Striped Men's Knitwear Sweater" [ref=e1136]
+            - generic [ref=e1137]: "- 35%"
+            - generic [ref=e1138]:
+              - button "Add to wishlist" [ref=e1139] [cursor=pointer]
+              - button "Compare product" [ref=e1140] [cursor=pointer]
+              - button "Quick view product" [ref=e1141] [cursor=pointer]
+          - generic [ref=e1142]:
+            - paragraph [ref=e1143]: Men's Fashion
+            - link "Crew Neck Long Sleeve Striped Men's Knitwear Sweater" [ref=e1144] [cursor=pointer]:
+              - /url: /products/6428be2bdc1175abc65c9fe6
+            - generic "4 out of 5 stars, 1 reviews" [ref=e1145]:
+              - generic [ref=e1157]: "4"
+              - generic [ref=e1158]: (1)
+          - generic [ref=e1159]:
+            - generic [ref=e1160]:
+              - generic [ref=e1161]: 549 EGP
+              - generic [ref=e1162]: 355 EGP
+            - button "Add Crew Neck Long Sleeve Striped Men's Knitwear Sweater to cart" [ref=e1163] [cursor=pointer]
+        - generic [ref=e1164]:
+          - generic [ref=e1165]:
+            - link "View Standard Pattern Plaid Fleece Men's Pajamas Set" [ref=e1166] [cursor=pointer]:
+              - /url: /products/6428bd0bdc1175abc65c9fdb
+              - img "Standard Pattern Plaid Fleece Men's Pajamas Set" [ref=e1167]
+            - generic [ref=e1168]: "- 35%"
+            - generic [ref=e1169]:
+              - button "Add to wishlist" [ref=e1170] [cursor=pointer]
+              - button "Compare product" [ref=e1171] [cursor=pointer]
+              - button "Quick view product" [ref=e1172] [cursor=pointer]
+          - generic [ref=e1173]:
+            - paragraph [ref=e1174]: Men's Fashion
+            - link "Standard Pattern Plaid Fleece Men's Pajamas Set" [ref=e1175] [cursor=pointer]:
+              - /url: /products/6428bd0bdc1175abc65c9fdb
+            - generic "4.5 out of 5 stars, 2 reviews" [ref=e1176]:
+              - generic [ref=e1188]: "4.5"
+              - generic [ref=e1189]: (2)
+          - generic [ref=e1190]:
+            - generic [ref=e1191]:
+              - generic [ref=e1192]: 699 EGP
+              - generic [ref=e1193]: 456 EGP
+            - button "Add Standard Pattern Plaid Fleece Men's Pajamas Set to cart" [ref=e1194] [cursor=pointer]
+        - generic [ref=e1195]:
+          - generic [ref=e1196]:
+            - link "View Slim Fit Stand Collar Men's Leather Look Coat" [ref=e1197] [cursor=pointer]:
+              - /url: /products/6428bbdedc1175abc65c9fce
+              - img "Slim Fit Stand Collar Men's Leather Look Coat" [ref=e1198]
+            - generic [ref=e1199]: "- 42%"
+            - generic [ref=e1200]:
+              - button "Add to wishlist" [ref=e1201] [cursor=pointer]
+              - button "Compare product" [ref=e1202] [cursor=pointer]
+              - button "Quick view product" [ref=e1203] [cursor=pointer]
+          - generic [ref=e1204]:
+            - paragraph [ref=e1205]: Men's Fashion
+            - link "Slim Fit Stand Collar Men's Leather Look Coat" [ref=e1206] [cursor=pointer]:
+              - /url: /products/6428bbdedc1175abc65c9fce
+            - generic "3.7 out of 5 stars, 7 reviews" [ref=e1207]:
+              - generic [ref=e1219]: "3.7"
+              - generic [ref=e1220]: (7)
+          - generic [ref=e1221]:
+            - generic [ref=e1222]:
+              - generic [ref=e1223]: 1499 EGP
+              - generic [ref=e1224]: 874 EGP
+            - button "Add Slim Fit Stand Collar Men's Leather Look Coat to cart" [ref=e1225] [cursor=pointer]
+        - generic [ref=e1226]:
+          - generic [ref=e1227]:
+            - link "View Archer VR300 AC1200 Wireless VDSL/ADSL Modem Router Black" [ref=e1228] [cursor=pointer]:
+              - /url: /products/6408e98e6406cd15828e8f30
+              - img "Archer VR300 AC1200 Wireless VDSL/ADSL Modem Router Black" [ref=e1229]
+            - generic [ref=e1230]:
+              - button "Add to wishlist" [ref=e1231] [cursor=pointer]
+              - button "Compare product" [ref=e1232] [cursor=pointer]
+              - button "Quick view product" [ref=e1233] [cursor=pointer]
+          - generic [ref=e1234]:
+            - paragraph [ref=e1235]: Electronics
+            - link "Archer VR300 AC1200 Wireless VDSL/ADSL Modem Router Black" [ref=e1236] [cursor=pointer]:
+              - /url: /products/6408e98e6406cd15828e8f30
+            - generic "3.9 out of 5 stars, 11 reviews" [ref=e1237]:
+              - generic [ref=e1249]: "3.9"
+              - generic [ref=e1250]: (11)
+          - generic [ref=e1251]:
+            - generic [ref=e1252]: 1699 EGP
+            - button "Add Archer VR300 AC1200 Wireless VDSL/ADSL Modem Router Black to cart" [ref=e1254] [cursor=pointer]
+        - generic [ref=e1255]:
+          - generic [ref=e1256]:
+            - link "View PIXMA G3420 Multi-Function Inkjet Printer Black" [ref=e1257] [cursor=pointer]:
+              - /url: /products/6408e5fd6406cd15828e8f28
+              - img "PIXMA G3420 Multi-Function Inkjet Printer Black" [ref=e1258]
+            - generic [ref=e1259]:
+              - button "Add to wishlist" [ref=e1260] [cursor=pointer]
+              - button "Compare product" [ref=e1261] [cursor=pointer]
+              - button "Quick view product" [ref=e1262] [cursor=pointer]
+          - generic [ref=e1263]:
+            - paragraph [ref=e1264]: Electronics
+            - link "PIXMA G3420 Multi-Function Inkjet Printer Black" [ref=e1265] [cursor=pointer]:
+              - /url: /products/6408e5fd6406cd15828e8f28
+            - generic "4.1 out of 5 stars, 8 reviews" [ref=e1266]:
+              - generic [ref=e1278]: "4.1"
+              - generic [ref=e1279]: (8)
+          - generic [ref=e1280]:
+            - generic [ref=e1281]: 5999 EGP
+            - button "Add PIXMA G3420 Multi-Function Inkjet Printer Black to cart" [ref=e1283] [cursor=pointer]
+        - generic [ref=e1284]:
+          - generic [ref=e1285]:
+            - link "View EOS M50 Mark II Mirrorless Digital Camera With 15-45mm Lens Black" [ref=e1286] [cursor=pointer]:
+              - /url: /products/6408e43a6406cd15828e8f22
+              - img "EOS M50 Mark II Mirrorless Digital Camera With 15-45mm Lens Black" [ref=e1287]
+            - generic [ref=e1288]: "- 3%"
+            - generic [ref=e1289]:
+              - button "Add to wishlist" [ref=e1290] [cursor=pointer]
+              - button "Compare product" [ref=e1291] [cursor=pointer]
+              - button "Quick view product" [ref=e1292] [cursor=pointer]
+          - generic [ref=e1293]:
+            - paragraph [ref=e1294]: Electronics
+            - link "EOS M50 Mark II Mirrorless Digital Camera With 15-45mm Lens Black" [ref=e1295] [cursor=pointer]:
+              - /url: /products/6408e43a6406cd15828e8f22
+            - generic "4.1 out of 5 stars, 10 reviews" [ref=e1296]:
+              - generic [ref=e1308]: "4.1"
+              - generic [ref=e1309]: (10)
+          - generic [ref=e1310]:
+            - generic [ref=e1311]:
+              - generic [ref=e1312]: 19699 EGP
+              - generic [ref=e1313]: 19199 EGP
+            - button "Add EOS M50 Mark II Mirrorless Digital Camera With 15-45mm Lens Black to cart" [ref=e1314] [cursor=pointer]
+        - generic [ref=e1315]:
+          - generic [ref=e1316]:
+            - link "View PS5 DualSense Charging Station" [ref=e1317] [cursor=pointer]:
+              - /url: /products/6408e1266406cd15828e8f1c
+              - img "PS5 DualSense Charging Station" [ref=e1318]
+            - generic [ref=e1319]:
+              - button "Add to wishlist" [ref=e1320] [cursor=pointer]
+              - button "Compare product" [ref=e1321] [cursor=pointer]
+              - button "Quick view product" [ref=e1322] [cursor=pointer]
+          - generic [ref=e1323]:
+            - paragraph [ref=e1324]: Electronics
+            - link "PS5 DualSense Charging Station" [ref=e1325] [cursor=pointer]:
+              - /url: /products/6408e1266406cd15828e8f1c
+            - generic "4.1 out of 5 stars, 12 reviews" [ref=e1326]:
+              - generic [ref=e1338]: "4.1"
+              - generic [ref=e1339]: (12)
+          - generic [ref=e1340]:
+            - generic [ref=e1341]: 1045 EGP
+            - button "Add PS5 DualSense Charging Station to cart" [ref=e1343] [cursor=pointer]
+        - generic [ref=e1344]:
+          - generic [ref=e1345]:
+            - link "View Galaxy Buds 2 Graphite" [ref=e1346] [cursor=pointer]:
+              - /url: /products/6408e05d6406cd15828e8f16
+              - img "Galaxy Buds 2 Graphite" [ref=e1347]
+            - generic [ref=e1348]:
+              - button "Add to wishlist" [ref=e1349] [cursor=pointer]
+              - button "Compare product" [ref=e1350] [cursor=pointer]
+              - button "Quick view product" [ref=e1351] [cursor=pointer]
+          - generic [ref=e1352]:
+            - paragraph [ref=e1353]: Electronics
+            - link "Galaxy Buds 2 Graphite" [ref=e1354] [cursor=pointer]:
+              - /url: /products/6408e05d6406cd15828e8f16
+            - generic "3.6 out of 5 stars, 9 reviews" [ref=e1355]:
+              - generic [ref=e1367]: "3.6"
+              - generic [ref=e1368]: (9)
+          - generic [ref=e1369]:
+            - generic [ref=e1370]: 3999 EGP
+            - button "Add Galaxy Buds 2 Graphite to cart" [ref=e1372] [cursor=pointer]
+        - generic [ref=e1373]:
+          - generic [ref=e1374]:
+            - link "View WH-CH510 Wireless On-Ear Bluetooth Headphones Black" [ref=e1375] [cursor=pointer]:
+              - /url: /products/6408de536406cd15828e8f10
+              - img "WH-CH510 Wireless On-Ear Bluetooth Headphones Black" [ref=e1376]
+            - generic [ref=e1377]:
+              - button "Add to wishlist" [ref=e1378] [cursor=pointer]
+              - button "Compare product" [ref=e1379] [cursor=pointer]
+              - button "Quick view product" [ref=e1380] [cursor=pointer]
+          - generic [ref=e1381]:
+            - paragraph [ref=e1382]: Electronics
+            - link "WH-CH510 Wireless On-Ear Bluetooth Headphones Black" [ref=e1383] [cursor=pointer]:
+              - /url: /products/6408de536406cd15828e8f10
+            - generic "3.9 out of 5 stars, 9 reviews" [ref=e1384]:
+              - generic [ref=e1396]: "3.9"
+              - generic [ref=e1397]: (9)
+          - generic [ref=e1398]:
+            - generic [ref=e1399]: 1949 EGP
+            - button "Add WH-CH510 Wireless On-Ear Bluetooth Headphones Black to cart" [ref=e1401] [cursor=pointer]
+        - generic [ref=e1402]:
+          - generic [ref=e1403]:
+            - link "View Victus 16-D1016Ne Laptop With 16-Inch Display Core I7-12700H Processor 16Gb Ram 1Tb Nvidia Geforce Rtx3050 Ti Graphics English/Arabic Ceramic White" [ref=e1404] [cursor=pointer]:
+              - /url: /products/6408da1c6406cd15828e8f0a
+              - img "Victus 16-D1016Ne Laptop With 16-Inch Display Core I7-12700H Processor 16Gb Ram 1Tb Nvidia Geforce Rtx3050 Ti Graphics English/Arabic Ceramic White" [ref=e1405]
+            - generic [ref=e1406]:
+              - button "Add to wishlist" [ref=e1407] [cursor=pointer]
+              - button "Compare product" [ref=e1408] [cursor=pointer]
+              - button "Quick view product" [ref=e1409] [cursor=pointer]
+          - generic [ref=e1410]:
+            - paragraph [ref=e1411]: Electronics
+            - link "Victus 16-D1016Ne Laptop With 16-Inch Display Core I7-12700H Processor 16Gb Ram 1Tb Nvidia Geforce Rtx3050 Ti Graphics English/Arabic Ceramic White" [ref=e1412] [cursor=pointer]:
+              - /url: /products/6408da1c6406cd15828e8f0a
+            - generic "3.8 out of 5 stars, 9 reviews" [ref=e1413]:
+              - generic [ref=e1425]: "3.8"
+              - generic [ref=e1426]: (9)
+          - generic [ref=e1427]:
+            - generic [ref=e1428]: 42960 EGP
+            - button "Add Victus 16-D1016Ne Laptop With 16-Inch Display Core I7-12700H Processor 16Gb Ram 1Tb Nvidia Geforce Rtx3050 Ti Graphics English/Arabic Ceramic White to cart" [ref=e1430] [cursor=pointer]
+    - region "Newsletter and mobile app" [ref=e1431]:
+      - generic [ref=e1432]:
+        - generic [ref=e1433]:
+          - generic [ref=e1439]:
+            - paragraph [ref=e1440]: Newsletter
+            - paragraph [ref=e1441]: 50,000+ subscribers
+          - heading "Get the Freshest Updates Delivered Free" [level=2] [ref=e1442]
+          - paragraph [ref=e1443]: Weekly recipes, seasonal offers & exclusive member perks.
+          - list [ref=e1444]:
+            - listitem [ref=e1445]: Fresh Picks Weekly
+            - listitem [ref=e1450]: Free Delivery Codes
+            - listitem [ref=e1457]: Members-Only Deals
+          - generic [ref=e1462]:
+            - textbox "Email address" [ref=e1463]:
+              - /placeholder: you@example.com
+            - button "Subscribe" [ref=e1464] [cursor=pointer]
+          - paragraph [ref=e1465]: ✦ Unsubscribe anytime. No spam, ever.
+        - generic [ref=e1468]:
+          - generic [ref=e1469]: Mobile App
+          - heading "Shop Faster on Our App" [level=2] [ref=e1473]
+          - paragraph [ref=e1474]: Get app-exclusive deals & 15% off your first order.
+          - generic [ref=e1475]:
+            - link "Download on App Store" [ref=e1476] [cursor=pointer]:
+              - /url: https://www.apple.com/app-store/
+              - generic [ref=e1477]:
+                - generic [ref=e1478]: Download on
+                - generic [ref=e1479]: App Store
+            - link "Get it on Google Play" [ref=e1480] [cursor=pointer]:
+              - /url: https://play.google.com/store
+              - generic [ref=e1481]:
+                - generic [ref=e1482]: Get it on
+                - generic [ref=e1483]: Google Play
+          - paragraph [ref=e1484]:
+            - generic "5 out of 5 stars" [ref=e1485]: ★★★★★
+            - generic [ref=e1486]: 4.9 · 100K+ downloads
+  - contentinfo [ref=e1487]:
+    - region "Service Features" [ref=e1488]:
+      - generic [ref=e1490]:
+        - generic [ref=e1498]:
+          - heading "Free Shipping" [level=4] [ref=e1499]
+          - paragraph [ref=e1500]: On orders over 500 EGP
+        - generic [ref=e1506]:
+          - heading "Easy Returns" [level=4] [ref=e1507]
+          - paragraph [ref=e1508]: 14-day return policy
+        - generic [ref=e1514]:
+          - heading "Secure Payment" [level=4] [ref=e1515]
+          - paragraph [ref=e1516]: 100% secure checkout
+        - generic [ref=e1521]:
+          - heading "24/7 Support" [level=4] [ref=e1522]
+          - paragraph [ref=e1523]: Contact us anytime
+    - generic [ref=e1525]:
+      - generic [ref=e1526]:
+        - generic [ref=e1528]:
+          - link [ref=e1529] [cursor=pointer]:
+            - /url: /
+            - img "FreshCart" [ref=e1530]
+          - paragraph [ref=e1531]: FreshCart is your one-stop destination for quality products. From fashion to electronics, we bring you the best brands at competitive prices with a seamless shopping experience.
+          - list [ref=e1532]:
+            - listitem [ref=e1533]:
+              - link "+1 (800) 123-4567" [ref=e1534] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e1538]:
+              - link "support@freshcart.com" [ref=e1539] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e1544]:
+              - generic [ref=e1545]: 123 Commerce Street, New York, NY 10001
+          - generic [ref=e1550]:
+            - link "Facebook" [ref=e1551] [cursor=pointer]:
+              - /url: /
+            - link "Twitter" [ref=e1554] [cursor=pointer]:
+              - /url: /
+            - link "Instagram" [ref=e1557] [cursor=pointer]:
+              - /url: /
+            - link "YouTube" [ref=e1560] [cursor=pointer]:
+              - /url: /
+        - generic [ref=e1564]:
+          - generic [ref=e1565]:
+            - heading "Shop" [level=3] [ref=e1566]
+            - list [ref=e1567]:
+              - listitem [ref=e1568]:
+                - link "All Products" [ref=e1569] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1570]:
+                - link "Categories" [ref=e1571] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1572]:
+                - link "Brands" [ref=e1573] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1574]:
+                - link "Electronics" [ref=e1575] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1576]:
+                - link "Men's Fashion" [ref=e1577] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1578]:
+                - link "Women's Fashion" [ref=e1579] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=e1580]:
+            - heading "Account" [level=3] [ref=e1581]
+            - list [ref=e1582]:
+              - listitem [ref=e1583]:
+                - link "My Account" [ref=e1584] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1585]:
+                - link "Order History" [ref=e1586] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1587]:
+                - link "Wishlist" [ref=e1588] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1589]:
+                - link "Shopping Cart" [ref=e1590] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1591]:
+                - link "Sign In" [ref=e1592] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1593]:
+                - link "Create Account" [ref=e1594] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=e1595]:
+            - heading "Support" [level=3] [ref=e1596]
+            - list [ref=e1597]:
+              - listitem [ref=e1598]:
+                - link "Contact Us" [ref=e1599] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1600]:
+                - link "Help Center" [ref=e1601] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1602]:
+                - link "Shipping Info" [ref=e1603] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1604]:
+                - link "Returns & Refunds" [ref=e1605] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1606]:
+                - link "Track Order" [ref=e1607] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=e1608]:
+            - heading "Legal" [level=3] [ref=e1609]
+            - list [ref=e1610]:
+              - listitem [ref=e1611]:
+                - link "Privacy Policy" [ref=e1612] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1613]:
+                - link "Terms of Service" [ref=e1614] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e1615]:
+                - link "Cookie Policy" [ref=e1616] [cursor=pointer]:
+                  - /url: /
+      - generic [ref=e1618]:
+        - paragraph [ref=e1619]: © 2026 FreshCart. All rights reserved.
+        - generic [ref=e1620]:
+          - generic [ref=e1621]: Visa
+          - generic [ref=e1625]: Mastercard
+          - generic [ref=e1629]: PayPal
+  - button "Open Next.js Dev Tools" [ref=e1639] [cursor=pointer]
+  - alert [ref=e1643]

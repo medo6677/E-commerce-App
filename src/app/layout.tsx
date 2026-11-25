@@ -4,7 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
-import { sileo, Toaster } from "sileo";
+import { Toaster } from "sileo";
 import AuthSessionProvider from "@/context/auth.session.provider";
 import CartItemsContext from "@/context/cartItemsContext";
 
@@ -44,7 +44,17 @@ export default function RootLayout({
 
           <CartItemsContext>
             <Navbar />
-            <Toaster position="top-center" />
+            <Toaster
+              position="top-center"
+              theme="light"
+              options={{
+                fill: "white",
+                roundness: 12,
+                styles: {
+                  description: "text-slate-700!",
+                },
+              }}
+            />
 
             <main className="flex-1">{children}</main>
             <Footer />

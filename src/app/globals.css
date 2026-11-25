@@ -173,6 +173,16 @@
     @apply bg-background text-foreground;
   }
 
+  [data-sileo-toast] {
+    filter: drop-shadow(0 8px 20px rgb(15 23 42 / 0.16));
+  }
+
+  [data-sileo-pill],
+  [data-sileo-body] {
+    stroke: #e2e8f0;
+    stroke-width: 1.25px;
+  }
+
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;

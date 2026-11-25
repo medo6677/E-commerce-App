@@ -45,21 +45,11 @@ export function CartItemQuantityControls({
         console.log(response.message);
         sileo.error({
           title: "Cart Update Failed",
-          fill: "black",
-          styles: {
-            title: "text-white!",
-            description: "text-white/75!",
-          },
           description: response.message,
         });
       } else {
         sileo.success({
           title: "Cart Updated",
-          fill: "black",
-          styles: {
-            title: "text-white!",
-            description: "text-white/75!",
-          },
           description: `Quantity updated to ${newQuantity} for ${productTitle}.`,
         });
         setUserCart(response);

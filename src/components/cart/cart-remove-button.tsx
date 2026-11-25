@@ -31,11 +31,6 @@ export function CartRemoveButton({
       if (response.status === "fail") {
         sileo.error({
           title: "Item Removal Failed",
-          fill: "black",
-          styles: {
-            title: "text-white!",
-            description: "text-white/75!",
-          },
           description: response.message,
         });
         return false;
@@ -45,11 +40,6 @@ export function CartRemoveButton({
       await handleCartItemsCount();
       sileo.success({
         title: "Item Removed",
-        fill: "black",
-        styles: {
-          title: "text-white!",
-          description: "text-white/75!",
-        },
         description: `${title} has been removed from your cart.`,
       });
       return true;
@@ -57,11 +47,6 @@ export function CartRemoveButton({
       console.error(error);
       sileo.error({
         title: "Item Removal Failed",
-        fill: "black",
-        styles: {
-          title: "text-white!",
-          description: "text-white/75!",
-        },
         description: "Could not remove this item. Please try again.",
       });
       return false;

@@ -60,11 +60,6 @@ export function RegisterForm() {
       if (response?.message === "success") {
         sileo.success({
           title: response?.message,
-          fill: "black",
-          styles: {
-            title: "text-white!",
-            description: "text-white/75!",
-          },
           description: `Your account has been created successfully , Please login to continue.`,
         });
         setTimeout(() => {
@@ -74,11 +69,6 @@ export function RegisterForm() {
       } else {
         sileo.error({
           title: "Registration failed",
-          fill: "black",
-          styles: {
-            title: "text-white!",
-            description: "text-white/75!",
-          },
           description: response?.message || "Please try again.",
         });
       }
