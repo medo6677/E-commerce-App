@@ -6,6 +6,8 @@ import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import { sileo, Toaster } from "sileo";
 import AuthSessionProvider from "@/context/auth.session.provider";
+import CartItemsContext from "@/context/cartItemsContext";
+
 const exo = Exo({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -39,11 +41,15 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col relative ">
         <AuthSessionProvider>
-          <Navbar />
-          <Toaster position="top-center"  />
 
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <CartItemsContext>
+            <Navbar />
+            <Toaster position="top-center" />
+
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </CartItemsContext>
+
         </AuthSessionProvider>
       </body>
     </html>

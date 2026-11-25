@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { useSession } from "next-auth/react";
 import {
   CreditCard,
@@ -21,11 +21,13 @@ import { NavbarSearch } from "./navbarSearch";
 import { NavbarLinks } from "./navbarLinks";
 import { NavbarAccountDropdown } from "./navbarAccountDropdown";
 import { NavbarAuthLoading } from "./navbarAuthLoading";
+import { Badge } from "../ui/badge";
+import { CartContext } from "@/context/cartItemsContext";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { status } = useSession();
-
+  const { numOfCartItems } = useContext(CartContext)!;
   return (
     <>
 
@@ -79,15 +81,21 @@ export default function Navbar() {
               </Button>
 
               {/* Shopping Cart */}
-              <Button
-                type="button"
-                variant="ghost"
-                size="icon"
+              <Link
+                href="/cart"
                 aria-label="Shopping cart"
-                className="text-slate-600 hover:text-emerald-700"
+                className="relative inline-flex items-center text-slate-600 hover:text-emerald-700"
               >
                 <ShoppingCart aria-hidden="true" className="size-5" />
-              </Button>
+                { }   {numOfCartItems > 0 && (
+                  <Badge
+                    variant="destructive"
+                    className="absolute -top-2.5 -end-2.5 flex size-4 items-center justify-center rounded-full p-2 text-[10px]"
+                  >
+                    {numOfCartItems}
+                  </Badge>
+                )}
+              </Link>
 
               {status === "loading" ? (
                 <NavbarAuthLoading />

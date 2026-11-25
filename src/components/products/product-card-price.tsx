@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { CardFooter } from "@/components/ui/card";
 
 import { ProductT } from "@/types/productCard/product";
+import AddToCartBtn from "./addToCartBtn";
 
 type ProductCardPriceProps = {
   product: ProductT;
@@ -27,15 +28,7 @@ export function ProductCardPrice({ product }: ProductCardPriceProps) {
           <span className="font-bold text-slate-800">{product.price} EGP</span>
         )}
       </div>
-      <Button
-        type="button"
-        size="icon"
-        aria-label={`Add ${product.title} to cart`}
-        // onClick={() => onAddToCart?.(product.id)}
-        className="size-10 rounded-full bg-emerald-600 text-white hover:bg-emerald-700"
-      >
-        <Plus aria-hidden="true" className="size-5" />
-      </Button>
+    <AddToCartBtn productTitle={product.title} productId={product._id}/>
     </CardFooter>
   );
 }
