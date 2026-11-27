@@ -72,7 +72,7 @@ export default function Navbar() {
               {/* Wishlist */}
               <Link
               
-               href={"/wihslist"}
+               href={"/wishlist"}
                 aria-label="Wishlist"
                 className="text-slate-600 hover:text-emerald-700"
               >
