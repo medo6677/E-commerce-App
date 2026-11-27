@@ -1,0 +1,249 @@
+- generic:
+  - generic [aria-hidden]:
+    - generic:
+      - generic:
+        - generic: Free Shipping on Orders 500 EGP
+        - generic: New Arrivals Daily
+      - generic:
+        - link:
+          - /url: tel:+18001234567
+          - text: +1 (800) 123-4567
+        - link:
+          - /url: mailto:support@freshcart.com
+          - text: support@freshcart.com
+  - banner [aria-hidden]:
+    - generic:
+      - generic:
+        - link:
+          - /url: /
+        - generic:
+          - link:
+            - /url: /wihslist
+          - link:
+            - /url: /cart
+          - generic:
+            - link:
+              - /url: /login
+              - text: Sign In
+            - link:
+              - /url: /register
+              - text: Sign Up
+          - button
+      - generic:
+        - generic:
+          - searchbox
+          - button
+  - main [aria-hidden]:
+    - generic:
+      - generic:
+        - generic:
+          - navigation:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /
+                  - text: Home
+              - listitem [aria-hidden]
+              - listitem:
+                - link [disabled]: My Account
+          - generic:
+            - generic:
+              - heading [level=1]: My Account
+              - paragraph: Manage your addresses and account settings
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]: My Account
+              - tablist:
+                - tab [selected]: My Addresses
+                - tab [disabled]: Settings
+            - tabpanel:
+              - region:
+                - generic:
+                  - generic:
+                    - heading [level=2]: My Addresses
+                    - paragraph: Manage your saved delivery addresses
+                  - button: Add Address
+  - contentinfo [aria-hidden]:
+    - region:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=4]: Free Shipping
+              - paragraph: On orders over 500 EGP
+          - generic:
+            - generic:
+              - heading [level=4]: Easy Returns
+              - paragraph: 14-day return policy
+          - generic:
+            - generic:
+              - heading [level=4]: Secure Payment
+              - paragraph: 100% secure checkout
+          - generic:
+            - generic:
+              - heading [level=4]: 24/7 Support
+              - paragraph: Contact us anytime
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: /
+              - paragraph: FreshCart is your one-stop destination for quality products. From fashion to electronics, we bring you the best brands at competitive prices with a seamless shopping experience.
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /
+                    - generic: +1 (800) 123-4567
+                - listitem:
+                  - link:
+                    - /url: /
+                    - generic: support@freshcart.com
+                - listitem:
+                  - generic: 123 Commerce Street, New York, NY 10001
+              - generic:
+                - link:
+                  - /url: /
+                - link:
+                  - /url: /
+                - link:
+                  - /url: /
+                - link:
+                  - /url: /
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=3]: Shop
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: All Products
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Categories
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Brands
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Electronics
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Men's Fashion
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Women's Fashion
+              - generic:
+                - heading [level=3]: Account
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: My Account
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Order History
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Wishlist
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Shopping Cart
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Sign In
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Create Account
+              - generic:
+                - heading [level=3]: Support
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Contact Us
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Help Center
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Shipping Info
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Returns & Refunds
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Track Order
+              - generic:
+                - heading [level=3]: Legal
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Privacy Policy
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Terms of Service
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Cookie Policy
+        - generic:
+          - generic:
+            - paragraph: © 2026 FreshCart. All rights reserved.
+            - generic:
+              - generic: Visa
+              - generic: Mastercard
+              - generic: PayPal
+  - button "Open Next.js Dev Tools" [ref=f120e184] [cursor=pointer]
+  - alert
+  - dialog "Add Address" [ref=f120e230]:
+    - generic [ref=f120e231]:
+      - heading "Add Address" [level=2] [ref=f120e232]
+      - paragraph [ref=f120e233]: Enter the details for your delivery address.
+    - generic [ref=f120e234]:
+      - generic [ref=f120e235]:
+        - generic [ref=f120e236]:
+          - generic [ref=f120e237]: Address Name
+          - textbox "Address Name" [active] [invalid] [ref=f120e238]:
+            - /placeholder: e.g. Home
+          - alert [ref=f120e254]: Address label is required
+        - generic [ref=f120e239]:
+          - generic [ref=f120e240]: Full Address
+          - textbox "Full Address" [invalid] [ref=f120e241]:
+            - /placeholder: Enter your full address
+          - alert [ref=f120e255]: Street address is required
+        - generic [ref=f120e242]:
+          - generic [ref=f120e243]:
+            - generic [ref=f120e244]: Phone Number
+            - textbox "Phone Number" [invalid] [ref=f120e245]:
+              - /placeholder: 01xxxxxxxxx
+            - alert [ref=f120e256]: Phone number is required
+          - generic [ref=f120e246]:
+            - generic [ref=f120e247]: City
+            - textbox "City" [invalid] [ref=f120e248]:
+              - /placeholder: Enter your city
+            - alert [ref=f120e257]: City is required
+      - generic [ref=f120e249]:
+        - button "Cancel" [ref=f120e250] [cursor=pointer]
+        - button "Save Address" [ref=f120e251] [cursor=pointer]
+    - button "Close" [ref=f120e252] [cursor=pointer]

@@ -111,3 +111,6 @@ export async function clearUserCart() {
   const data = await response.json();
   return data;
 }
+
+
+

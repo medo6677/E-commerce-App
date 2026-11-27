@@ -1,15 +1,11 @@
-import { decode } from "next-auth/jwt";
-import { cookies } from "next/headers";
+import { getToken } from "next-auth/jwt";
+import { headers } from "next/headers";
+import { NextRequest } from "next/server";
 
 export async function getUserToken() {
-  const token = await (await cookies()).get("next-auth.session-token")?.value;
-if (!token) {
-    console.log("No token found");
-    return null;
-  }
-  const userToken = await decode({
-    token: token as string,
-    secret: process.env.AUTH_SECRET! as string,
+  const req = new NextRequest("http://localhost", {
+    headers: await headers(),
   });
- return userToken;
+
+  return getToken({ req });
 }

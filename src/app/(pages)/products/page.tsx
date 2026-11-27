@@ -19,7 +19,7 @@ export default async function ProductsPage({
   const currentLimit = Number(limit) || 40;
 
   const response = await getProducts(currentPage, currentLimit);
-  console.log(response.metadata.numberOfPages);
+  // console.log(response);
 
   const products = response?.data;
   const totalPages = response?.metadata?.numberOfPages || 1;

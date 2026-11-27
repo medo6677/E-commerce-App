@@ -1,0 +1,174 @@
+- generic [active] [ref=f61e1]:
+  - banner [ref=f61e2]:
+    - generic [ref=f61e3]:
+      - generic [ref=f61e4]:
+        - link "FreshCart home" [ref=f61e5] [cursor=pointer]:
+          - /url: /
+          - img "FreshCart" [ref=f61e6]
+        - generic [ref=f61e7]:
+          - link "Wishlist" [ref=f61e8] [cursor=pointer]:
+            - /url: /wihslist
+          - link "Shopping cart" [ref=f61e11] [cursor=pointer]:
+            - /url: /cart
+          - button "Loading account" [disabled]
+          - button "Open navigation menu" [ref=f61e17] [cursor=pointer]
+      - generic [ref=f61e19]:
+        - searchbox "Search products, brands and more" [ref=f61e20]
+        - button "Search" [ref=f61e21] [cursor=pointer]
+  - main [ref=f61e22]:
+    - generic [ref=f61e23]:
+      - generic [ref=f61e25]:
+        - navigation "breadcrumb" [ref=f61e26]:
+          - list [ref=f61e27]:
+            - listitem [ref=f61e28]:
+              - link "Home" [ref=f61e29] [cursor=pointer]:
+                - /url: /
+            - listitem [aria-hidden] [ref=f61e30]
+            - listitem [ref=f61e33]:
+              - link "My Account" [disabled] [ref=f61e34]
+        - generic [ref=f61e40]:
+          - heading "My Account" [level=1] [ref=f61e41]
+          - paragraph [ref=f61e42]: Manage your addresses and account settings
+      - generic [ref=f61e45]:
+        - generic [ref=f61e46]:
+          - heading "My Account" [level=2] [ref=f61e47]
+          - tablist [ref=f61e48]:
+            - tab "My Addresses" [selected] [ref=f61e49] [cursor=pointer]
+            - tab "Settings" [disabled]
+        - tabpanel "My Addresses" [ref=f61e56]:
+          - region "My Addresses" [ref=f61e57]:
+            - generic [ref=f61e58]:
+              - generic [ref=f61e59]:
+                - heading "My Addresses" [level=2] [ref=f61e60]
+                - paragraph [ref=f61e61]: Manage your saved delivery addresses
+              - button "Add Address" [ref=f61e62] [cursor=pointer]
+            - generic [ref=f61e64]:
+              - generic [ref=f61e69]:
+                - heading "Benha - Atreb" [level=3] [ref=f61e70]
+                - paragraph [ref=f61e71]: Benha - Atreb
+                - generic [ref=f61e72]:
+                  - generic [ref=f61e73]: "01222306014"
+                  - generic [ref=f61e76]: benha
+              - generic [ref=f61e80]:
+                - button "Edit Benha - Atreb address" [ref=f61e81] [cursor=pointer]
+                - button "Delete Benha - Atreb address" [ref=f61e82] [cursor=pointer]
+  - contentinfo [ref=f61e83]:
+    - region "Service Features" [ref=f61e84]:
+      - generic [ref=f61e86]:
+        - generic [ref=f61e94]:
+          - heading "Free Shipping" [level=4] [ref=f61e95]
+          - paragraph [ref=f61e96]: On orders over 500 EGP
+        - generic [ref=f61e102]:
+          - heading "Easy Returns" [level=4] [ref=f61e103]
+          - paragraph [ref=f61e104]: 14-day return policy
+        - generic [ref=f61e110]:
+          - heading "Secure Payment" [level=4] [ref=f61e111]
+          - paragraph [ref=f61e112]: 100% secure checkout
+        - generic [ref=f61e117]:
+          - heading "24/7 Support" [level=4] [ref=f61e118]
+          - paragraph [ref=f61e119]: Contact us anytime
+    - generic [ref=f61e121]:
+      - generic [ref=f61e122]:
+        - generic [ref=f61e124]:
+          - link [ref=f61e125] [cursor=pointer]:
+            - /url: /
+            - img "FreshCart" [ref=f61e126]
+          - paragraph [ref=f61e127]: FreshCart is your one-stop destination for quality products. From fashion to electronics, we bring you the best brands at competitive prices with a seamless shopping experience.
+          - list [ref=f61e128]:
+            - listitem [ref=f61e129]:
+              - link "+1 (800) 123-4567" [ref=f61e130] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f61e134]:
+              - link "support@freshcart.com" [ref=f61e135] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f61e140]:
+              - generic [ref=f61e141]: 123 Commerce Street, New York, NY 10001
+          - generic [ref=f61e146]:
+            - link "Facebook" [ref=f61e147] [cursor=pointer]:
+              - /url: /
+            - link "Twitter" [ref=f61e150] [cursor=pointer]:
+              - /url: /
+            - link "Instagram" [ref=f61e153] [cursor=pointer]:
+              - /url: /
+            - link "YouTube" [ref=f61e156] [cursor=pointer]:
+              - /url: /
+        - generic [ref=f61e160]:
+          - generic [ref=f61e161]:
+            - heading "Shop" [level=3] [ref=f61e162]
+            - list [ref=f61e163]:
+              - listitem [ref=f61e164]:
+                - link "All Products" [ref=f61e165] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e166]:
+                - link "Categories" [ref=f61e167] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e168]:
+                - link "Brands" [ref=f61e169] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e170]:
+                - link "Electronics" [ref=f61e171] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e172]:
+                - link "Men's Fashion" [ref=f61e173] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e174]:
+                - link "Women's Fashion" [ref=f61e175] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=f61e176]:
+            - heading "Account" [level=3] [ref=f61e177]
+            - list [ref=f61e178]:
+              - listitem [ref=f61e179]:
+                - link "My Account" [ref=f61e180] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e181]:
+                - link "Order History" [ref=f61e182] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e183]:
+                - link "Wishlist" [ref=f61e184] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e185]:
+                - link "Shopping Cart" [ref=f61e186] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e187]:
+                - link "Sign In" [ref=f61e188] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e189]:
+                - link "Create Account" [ref=f61e190] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=f61e191]:
+            - heading "Support" [level=3] [ref=f61e192]
+            - list [ref=f61e193]:
+              - listitem [ref=f61e194]:
+                - link "Contact Us" [ref=f61e195] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e196]:
+                - link "Help Center" [ref=f61e197] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e198]:
+                - link "Shipping Info" [ref=f61e199] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e200]:
+                - link "Returns & Refunds" [ref=f61e201] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e202]:
+                - link "Track Order" [ref=f61e203] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=f61e204]:
+            - heading "Legal" [level=3] [ref=f61e205]
+            - list [ref=f61e206]:
+              - listitem [ref=f61e207]:
+                - link "Privacy Policy" [ref=f61e208] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e209]:
+                - link "Terms of Service" [ref=f61e210] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f61e211]:
+                - link "Cookie Policy" [ref=f61e212] [cursor=pointer]:
+                  - /url: /
+      - generic [ref=f61e214]:
+        - paragraph [ref=f61e215]: © 2026 FreshCart. All rights reserved.
+        - generic [ref=f61e216]:
+          - generic [ref=f61e217]: Visa
+          - generic [ref=f61e221]: Mastercard
+          - generic [ref=f61e225]: PayPal
+  - button "Open Next.js Dev Tools" [ref=f61e235] [cursor=pointer]

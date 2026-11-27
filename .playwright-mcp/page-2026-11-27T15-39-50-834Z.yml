@@ -1,0 +1,140 @@
+- generic [active] [ref=f62e1]:
+  - banner [ref=f62e2]:
+    - generic [ref=f62e3]:
+      - generic [ref=f62e4]:
+        - link "FreshCart home" [ref=f62e5] [cursor=pointer]:
+          - /url: /
+          - img "FreshCart" [ref=f62e6]
+        - generic [ref=f62e7]:
+          - link "Wishlist" [ref=f62e8] [cursor=pointer]:
+            - /url: /wihslist
+          - link "Shopping cart" [ref=f62e11] [cursor=pointer]:
+            - /url: /cart
+          - button "Loading account" [disabled]
+          - button "Open navigation menu" [ref=f62e17] [cursor=pointer]
+      - generic [ref=f62e19]:
+        - searchbox "Search products, brands and more" [ref=f62e20]
+        - button "Search" [ref=f62e21] [cursor=pointer]
+  - main [ref=f62e22]:
+    - status "Loading FreshCart" [ref=f62e23]:
+      - paragraph [ref=f62e31]: Loading your store...
+  - contentinfo [ref=f62e32]:
+    - region "Service Features" [ref=f62e33]:
+      - generic [ref=f62e35]:
+        - generic [ref=f62e43]:
+          - heading "Free Shipping" [level=4] [ref=f62e44]
+          - paragraph [ref=f62e45]: On orders over 500 EGP
+        - generic [ref=f62e51]:
+          - heading "Easy Returns" [level=4] [ref=f62e52]
+          - paragraph [ref=f62e53]: 14-day return policy
+        - generic [ref=f62e59]:
+          - heading "Secure Payment" [level=4] [ref=f62e60]
+          - paragraph [ref=f62e61]: 100% secure checkout
+        - generic [ref=f62e66]:
+          - heading "24/7 Support" [level=4] [ref=f62e67]
+          - paragraph [ref=f62e68]: Contact us anytime
+    - generic [ref=f62e70]:
+      - generic [ref=f62e71]:
+        - generic [ref=f62e73]:
+          - link [ref=f62e74] [cursor=pointer]:
+            - /url: /
+            - img "FreshCart" [ref=f62e75]
+          - paragraph [ref=f62e76]: FreshCart is your one-stop destination for quality products. From fashion to electronics, we bring you the best brands at competitive prices with a seamless shopping experience.
+          - list [ref=f62e77]:
+            - listitem [ref=f62e78]:
+              - link "+1 (800) 123-4567" [ref=f62e79] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f62e83]:
+              - link "support@freshcart.com" [ref=f62e84] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f62e89]:
+              - generic [ref=f62e90]: 123 Commerce Street, New York, NY 10001
+          - generic [ref=f62e95]:
+            - link "Facebook" [ref=f62e96] [cursor=pointer]:
+              - /url: /
+            - link "Twitter" [ref=f62e99] [cursor=pointer]:
+              - /url: /
+            - link "Instagram" [ref=f62e102] [cursor=pointer]:
+              - /url: /
+            - link "YouTube" [ref=f62e105] [cursor=pointer]:
+              - /url: /
+        - generic [ref=f62e109]:
+          - generic [ref=f62e110]:
+            - heading "Shop" [level=3] [ref=f62e111]
+            - list [ref=f62e112]:
+              - listitem [ref=f62e113]:
+                - link "All Products" [ref=f62e114] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e115]:
+                - link "Categories" [ref=f62e116] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e117]:
+                - link "Brands" [ref=f62e118] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e119]:
+                - link "Electronics" [ref=f62e120] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e121]:
+                - link "Men's Fashion" [ref=f62e122] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e123]:
+                - link "Women's Fashion" [ref=f62e124] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=f62e125]:
+            - heading "Account" [level=3] [ref=f62e126]
+            - list [ref=f62e127]:
+              - listitem [ref=f62e128]:
+                - link "My Account" [ref=f62e129] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e130]:
+                - link "Order History" [ref=f62e131] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e132]:
+                - link "Wishlist" [ref=f62e133] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e134]:
+                - link "Shopping Cart" [ref=f62e135] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e136]:
+                - link "Sign In" [ref=f62e137] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e138]:
+                - link "Create Account" [ref=f62e139] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=f62e140]:
+            - heading "Support" [level=3] [ref=f62e141]
+            - list [ref=f62e142]:
+              - listitem [ref=f62e143]:
+                - link "Contact Us" [ref=f62e144] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e145]:
+                - link "Help Center" [ref=f62e146] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e147]:
+                - link "Shipping Info" [ref=f62e148] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e149]:
+                - link "Returns & Refunds" [ref=f62e150] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e151]:
+                - link "Track Order" [ref=f62e152] [cursor=pointer]:
+                  - /url: /
+          - generic [ref=f62e153]:
+            - heading "Legal" [level=3] [ref=f62e154]
+            - list [ref=f62e155]:
+              - listitem [ref=f62e156]:
+                - link "Privacy Policy" [ref=f62e157] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e158]:
+                - link "Terms of Service" [ref=f62e159] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f62e160]:
+                - link "Cookie Policy" [ref=f62e161] [cursor=pointer]:
+                  - /url: /
+      - generic [ref=f62e163]:
+        - paragraph [ref=f62e164]: © 2026 FreshCart. All rights reserved.
+        - generic [ref=f62e165]:
+          - generic [ref=f62e166]: Visa
+          - generic [ref=f62e170]: Mastercard
+          - generic [ref=f62e174]: PayPal
+  - button "Open Next.js Dev Tools" [ref=f62e184] [cursor=pointer]

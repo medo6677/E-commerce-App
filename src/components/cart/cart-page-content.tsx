@@ -50,7 +50,7 @@ export function CartPageContent() {
             </div>
             {/* Right Column: Order Summary (Sticky on Desktop) */}
             <div className="lg:col-span-4 lg:sticky lg:top-24">
-              <OrderSummary itemCount={numOfCartItems} subtotal={userCart?.data.totalCartPrice} shipping={0} />
+              <OrderSummary isCheckout={false} itemCount={numOfCartItems} subtotal={userCart?.data.totalCartPrice} shipping={0} />
             </div>
 
           </>

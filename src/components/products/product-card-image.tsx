@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ProductCardActions } from "./product-card-actions";
 import { ProductT } from "@/types/productCard/product";
 
-export function ProductCardImage({ product }: { product: ProductT }) {
+export function ProductCardImage({ product ,isAddedToWishlist }: { product: ProductT,isAddedToWishlist:boolean }) {
   return (
     <div className="relative flex flex-1 items-center justify-center bg-white p-5">
       <Link
@@ -27,7 +27,7 @@ export function ProductCardImage({ product }: { product: ProductT }) {
           )}%
         </span>
       )}
-      <ProductCardActions productId={product._id || product.id} />
+      <ProductCardActions productId={product._id} isAddedToWishlist={isAddedToWishlist} />
     </div>
   );
 }

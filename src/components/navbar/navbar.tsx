@@ -70,15 +70,14 @@ export default function Navbar() {
 
             <div className="flex shrink-0 items-center gap-1">
               {/* Wishlist */}
-              <Button
-                type="button"
-                variant="ghost"
-                size="icon"
+              <Link
+              
+               href={"/wihslist"}
                 aria-label="Wishlist"
                 className="text-slate-600 hover:text-emerald-700"
               >
                 <Heart aria-hidden="true" className="size-5" />
-              </Button>
+              </Link>
 
               {/* Shopping Cart */}
               <Link

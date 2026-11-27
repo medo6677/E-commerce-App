@@ -7,7 +7,8 @@ export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const isAuthPage = pathname === "/login" || pathname === "/register";
   if (token && isAuthPage) {
-    return NextResponse.redirect(new URL(`${process.env.NEXTAUTH_URL}/`));
+    const origin = process.env.NEXTAUTH_URL || request.nextUrl.origin;
+    return NextResponse.redirect(new URL("/", origin));
   }
   if (!token && !isAuthPage) {
     return NextResponse.redirect(new URL(`/login`, request.url));

@@ -1,0 +1,237 @@
+- generic:
+  - banner [aria-hidden]:
+    - generic:
+      - generic:
+        - link:
+          - /url: /
+        - generic:
+          - link:
+            - /url: /wihslist
+          - link:
+            - /url: /cart
+          - button
+      - generic:
+        - generic:
+          - searchbox
+          - button
+  - main [aria-hidden]:
+    - generic:
+      - generic:
+        - generic:
+          - navigation:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /
+                  - text: Home
+              - listitem [aria-hidden]
+              - listitem:
+                - link [disabled]: My Account
+          - generic:
+            - generic:
+              - heading [level=1]: My Account
+              - paragraph: Manage your addresses and account settings
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]: My Account
+              - tablist:
+                - tab [selected]: My Addresses
+                - tab [disabled]: Settings
+            - tabpanel:
+              - region:
+                - generic:
+                  - generic:
+                    - heading [level=2]: My Addresses
+                    - paragraph: Manage your saved delivery addresses
+                  - button: Add Address
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: Benha - Atreb
+                      - paragraph: Benha - Atreb
+                      - generic:
+                        - generic: "01222306014"
+                        - generic: benha
+                    - generic:
+                      - button
+                      - button
+  - contentinfo [aria-hidden]:
+    - region:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=4]: Free Shipping
+              - paragraph: On orders over 500 EGP
+          - generic:
+            - generic:
+              - heading [level=4]: Easy Returns
+              - paragraph: 14-day return policy
+          - generic:
+            - generic:
+              - heading [level=4]: Secure Payment
+              - paragraph: 100% secure checkout
+          - generic:
+            - generic:
+              - heading [level=4]: 24/7 Support
+              - paragraph: Contact us anytime
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: /
+              - paragraph: FreshCart is your one-stop destination for quality products. From fashion to electronics, we bring you the best brands at competitive prices with a seamless shopping experience.
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /
+                    - generic: +1 (800) 123-4567
+                - listitem:
+                  - link:
+                    - /url: /
+                    - generic: support@freshcart.com
+                - listitem:
+                  - generic: 123 Commerce Street, New York, NY 10001
+              - generic:
+                - link:
+                  - /url: /
+                - link:
+                  - /url: /
+                - link:
+                  - /url: /
+                - link:
+                  - /url: /
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=3]: Shop
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: All Products
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Categories
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Brands
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Electronics
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Men's Fashion
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Women's Fashion
+              - generic:
+                - heading [level=3]: Account
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: My Account
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Order History
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Wishlist
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Shopping Cart
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Sign In
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Create Account
+              - generic:
+                - heading [level=3]: Support
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Contact Us
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Help Center
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Shipping Info
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Returns & Refunds
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Track Order
+              - generic:
+                - heading [level=3]: Legal
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Privacy Policy
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Terms of Service
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - text: Cookie Policy
+        - generic:
+          - generic:
+            - paragraph: © 2026 FreshCart. All rights reserved.
+            - generic:
+              - generic: Visa
+              - generic: Mastercard
+              - generic: PayPal
+  - button "Open Next.js Dev Tools" [ref=f62e184] [cursor=pointer]
+  - alert
+  - dialog "Add Address" [ref=f62e250]:
+    - generic [ref=f62e251]:
+      - heading "Add Address" [level=2] [ref=f62e252]
+      - paragraph [ref=f62e253]: Enter the details for your delivery address.
+    - generic [ref=f62e254]:
+      - generic [ref=f62e255]:
+        - generic [ref=f62e256]:
+          - generic [ref=f62e257]: Address Name
+          - textbox "Address Name" [active] [ref=f62e258]:
+            - /placeholder: e.g. Home
+        - generic [ref=f62e259]:
+          - generic [ref=f62e260]: Full Address
+          - textbox "Full Address" [ref=f62e261]:
+            - /placeholder: Enter your full address
+        - generic [ref=f62e262]:
+          - generic [ref=f62e263]:
+            - generic [ref=f62e264]: Phone Number
+            - textbox "Phone Number" [ref=f62e265]:
+              - /placeholder: 01xxxxxxxxx
+          - generic [ref=f62e266]:
+            - generic [ref=f62e267]: City
+            - textbox "City" [ref=f62e268]:
+              - /placeholder: Enter your city
+      - generic [ref=f62e269]:
+        - button "Cancel" [ref=f62e270] [cursor=pointer]
+        - button "Save Address" [ref=f62e271] [cursor=pointer]
+    - button "Close" [ref=f62e272] [cursor=pointer]
